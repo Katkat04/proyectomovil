@@ -182,9 +182,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ReportDELETEWidget(),
         ),
         FFRoute(
-          name: 'AdminUS',
-          path: '/adminUS',
-          builder: (context, params) => AdminUSWidget(),
+          name: 'AdminUsers',
+          path: '/adminUsers',
+          builder: (context, params) => AdminUsersWidget(),
         ),
         FFRoute(
           name: 'AdminSupportUser',
@@ -205,6 +205,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'SearchClientUser',
           path: '/searchClientUser',
           builder: (context, params) => SearchClientUserWidget(),
+        ),
+        FFRoute(
+          name: 'Allreports',
+          path: '/allreports',
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'Allreports')
+              : AllreportsWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -391,12 +398,9 @@ class FFRoute {
           final child = appStateNotifier.loading
               ? Container(
                   color: Colors.transparent,
-                  child: Center(
-                    child: Image.asset(
-                      'assets/images/Medical_ScheduleApp_0.0.png',
-                      width: MediaQuery.sizeOf(context).width * 1.0,
-                      fit: BoxFit.fitWidth,
-                    ),
+                  child: Image.asset(
+                    'assets/images/assetinicio.png',
+                    fit: BoxFit.cover,
                   ),
                 )
               : page;

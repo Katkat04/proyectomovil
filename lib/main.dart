@@ -136,6 +136,7 @@ class _NavBarPageState extends State<NavBarPage> {
     final tabs = {
       'MY_Reports': MYReportsWidget(),
       'MY_profilePage': MYProfilePageWidget(),
+      'Allreports': AllreportsWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -179,6 +180,20 @@ class _NavBarPageState extends State<NavBarPage> {
             ),
             label: FFLocalizations.of(context).getText(
               '8srr2k0j' /* • */,
+            ),
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.stacked_line_chart_rounded,
+              size: 24.0,
+            ),
+            activeIcon: Icon(
+              Icons.stacked_line_chart_rounded,
+              size: 24.0,
+            ),
+            label: FFLocalizations.of(context).getText(
+              '6cb5ftpe' /*  */,
             ),
             tooltip: '',
           )

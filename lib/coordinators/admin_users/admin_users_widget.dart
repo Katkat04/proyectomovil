@@ -10,19 +10,19 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:provider/provider.dart';
-import 'admin_u_s_model.dart';
-export 'admin_u_s_model.dart';
+import 'admin_users_model.dart';
+export 'admin_users_model.dart';
 
-class AdminUSWidget extends StatefulWidget {
-  const AdminUSWidget({super.key});
+class AdminUsersWidget extends StatefulWidget {
+  const AdminUsersWidget({super.key});
 
   @override
-  State<AdminUSWidget> createState() => _AdminUSWidgetState();
+  State<AdminUsersWidget> createState() => _AdminUsersWidgetState();
 }
 
-class _AdminUSWidgetState extends State<AdminUSWidget>
+class _AdminUsersWidgetState extends State<AdminUsersWidget>
     with TickerProviderStateMixin {
-  late AdminUSModel _model;
+  late AdminUsersModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -31,7 +31,7 @@ class _AdminUSWidgetState extends State<AdminUSWidget>
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => AdminUSModel());
+    _model = createModel(context, () => AdminUsersModel());
 
     animationsMap.addAll({
       'containerOnPageLoadAnimation1': AnimationInfo(

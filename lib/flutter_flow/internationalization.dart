@@ -858,8 +858,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': 'Transfer',
       'es': 'Transferir',
     },
+    'bs0sn1pa': {
+      'en': 'Add \nTasks',
+      'ar': 'تحويل',
+      'de': 'Transfer',
+      'es': 'Transferir',
+    },
     'g8yaaa7f': {
-      'en': 'Rate Reports',
+      'en': 'Rate \nReports',
       'ar': 'نشاط',
       'de': 'Aktivität',
       'es': 'Actividad',
@@ -984,7 +990,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // AdminUS
+  // AdminUsers
   {
     'hhb6veym': {
       'en': 'Manage Users',
@@ -1399,6 +1405,111 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': '',
       'de': '',
       'es': '',
+    },
+  },
+  // Allreports
+  {
+    'mmruz45o': {
+      'en': 'Reports',
+      'ar': 'ميزانيتي',
+      'de': 'Mein Budget',
+      'es': 'Mi presupuesto',
+    },
+    'o5jcekbf': {
+      'en': '[User support]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '07zdgvgq': {
+      'en': 'Solving Wify',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'b64ad4q4': {
+      'en': '5 hours working',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '6jynhx93': {
+      'en': 'Total Spent',
+      'ar': 'إجمال الصرف',
+      'de': 'Gesamtausgaben',
+      'es': 'Total gastado',
+    },
+    'agtju5wg': {
+      'en': '\$2,502',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '3fd8dbim': {
+      'en': '[User:234]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'lfgyq264': {
+      'en': 'Solving Hz',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'n8wk1kf8': {
+      'en': '5 hours working',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'haql27ac': {
+      'en': 'Total Spent',
+      'ar': 'إجمال الصرف',
+      'de': 'Gesamtausgaben',
+      'es': 'Total gastado',
+    },
+    's3yk8iux': {
+      'en': '\$2,502',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'ij44liou': {
+      'en': 'User 45',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'r7g576di': {
+      'en': 'Installing Wifi',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '5cl7f2g1': {
+      'en': '5 hours working',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '9frh9g0j': {
+      'en': 'Total Spent',
+      'ar': 'إجمال الصرف',
+      'de': 'Gesamtausgaben',
+      'es': 'Total gastado',
+    },
+    'fjeh5gmi': {
+      'en': '\$2,502',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '6cb5ftpe': {
+      'en': '',
+      'ar': '•',
+      'de': '•',
+      'es': '•',
     },
   },
   // bookAppointment

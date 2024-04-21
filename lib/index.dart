@@ -6,7 +6,7 @@ export '/pages/complete_profile/complete_profile_widget.dart'
     show CompleteProfileWidget;
 export '/pages/forgot_password/forgot_password_widget.dart'
     show ForgotPasswordWidget;
-export '/us/m_y_reports/m_y_reports_widget.dart' show MYReportsWidget;
+export '/pages/m_y_reports/m_y_reports_widget.dart' show MYReportsWidget;
 export '/pages/m_y_profile_page/m_y_profile_page_widget.dart'
     show MYProfilePageWidget;
 export '/us/report_details/report_details_widget.dart' show ReportDetailsWidget;
@@ -22,7 +22,8 @@ export '/coordinators/home_page_u_c/home_page_u_c_widget.dart'
 export '/us/home_page_u_s/home_page_u_s_widget.dart' show HomePageUSWidget;
 export '/us/report_d_e_l_e_t_e/report_d_e_l_e_t_e_widget.dart'
     show ReportDELETEWidget;
-export '/coordinators/admin_u_s/admin_u_s_widget.dart' show AdminUSWidget;
+export '/coordinators/admin_users/admin_users_widget.dart'
+    show AdminUsersWidget;
 export '/coordinators/admin_support_user/admin_support_user_widget.dart'
     show AdminSupportUserWidget;
 export '/coordinators/search_support_user/search_support_user_widget.dart'
@@ -31,3 +32,4 @@ export '/coordinators/admin_client_user/admin_client_user_widget.dart'
     show AdminClientUserWidget;
 export '/coordinators/search_client_user/search_client_user_widget.dart'
     show SearchClientUserWidget;
+export '/pages/allreports/allreports_widget.dart' show AllreportsWidget;
