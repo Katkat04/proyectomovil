@@ -355,7 +355,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                       }
 
                                       context.goNamedAuth(
-                                          'MY_Card', context.mounted);
+                                          'MY_Reports', context.mounted);
                                     },
                                     text: FFLocalizations.of(context).getText(
                                       'qbmoi1av' /* Login */,

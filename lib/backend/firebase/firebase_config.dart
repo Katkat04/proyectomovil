@@ -5,13 +5,12 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyAaUfG2Bb-wd1CEG1GwXfm_QouBRHhF08U",
-            authDomain: "finance-app-32589.firebaseapp.com",
-            projectId: "finance-app-32589",
-            storageBucket: "finance-app-32589.appspot.com",
-            messagingSenderId: "180463640197",
-            appId: "1:180463640197:web:12626955157c6fcd90d3ec",
-            measurementId: "G-G7842LZYLB"));
+            apiKey: "AIzaSyA_a3afTE8myKkkbp2ECWlUwjSJHfiNcSk",
+            authDomain: "proyecto-movil-fafl8v.firebaseapp.com",
+            projectId: "proyecto-movil-fafl8v",
+            storageBucket: "proyecto-movil-fafl8v.appspot.com",
+            messagingSenderId: "255386672323",
+            appId: "1:255386672323:web:301497748dfab1d67d5676"));
   } else {
     await Firebase.initializeApp();
   }

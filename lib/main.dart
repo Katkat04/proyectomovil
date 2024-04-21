@@ -12,7 +12,6 @@ import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/internationalization.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'flutter_flow/nav/nav.dart';
 import 'index.dart';
@@ -122,7 +121,7 @@ class NavBarPage extends StatefulWidget {
 
 /// This is the private State class that goes with NavBarPage.
 class _NavBarPageState extends State<NavBarPage> {
-  String _currentPageName = 'MY_Card';
+  String _currentPageName = 'MY_Reports';
   late Widget? _currentPage;
 
   @override
@@ -135,8 +134,7 @@ class _NavBarPageState extends State<NavBarPage> {
   @override
   Widget build(BuildContext context) {
     final tabs = {
-      'MY_Card': MYCardWidget(),
-      'MY_Budgets': MYBudgetsWidget(),
+      'MY_Reports': MYReportsWidget(),
       'MY_profilePage': MYProfilePageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
@@ -156,20 +154,6 @@ class _NavBarPageState extends State<NavBarPage> {
         showUnselectedLabels: false,
         type: BottomNavigationBarType.fixed,
         items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.credit_card,
-              size: 24.0,
-            ),
-            activeIcon: FaIcon(
-              FontAwesomeIcons.solidCreditCard,
-              size: 20.0,
-            ),
-            label: FFLocalizations.of(context).getText(
-              'm8rhanhc' /* • */,
-            ),
-            tooltip: '',
-          ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.stacked_line_chart_rounded,

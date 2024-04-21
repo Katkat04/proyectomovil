@@ -61,7 +61,7 @@ class _TransferCompleteWidgetState extends State<TransferCompleteWidget> {
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
               child: Text(
                 FFLocalizations.of(context).getText(
-                  'xf8d4sm8' /* Transfer Complete */,
+                  'xf8d4sm8' /* Task Complete */,
                 ),
                 style: FlutterFlowTheme.of(context).displaySmall.override(
                       fontFamily: 'Lexend',
@@ -79,7 +79,7 @@ class _TransferCompleteWidgetState extends State<TransferCompleteWidget> {
                   Expanded(
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'iq9jjji8' /* Great work, you successfully t... */,
+                        'iq9jjji8' /* Great work, your report will b... */,
                       ),
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodySmall.override(
@@ -97,7 +97,7 @@ class _TransferCompleteWidgetState extends State<TransferCompleteWidget> {
               child: FFButtonWidget(
                 onPressed: () async {
                   context.pushNamed(
-                    'MY_Card',
+                    'MY_Reports',
                     extra: <String, dynamic>{
                       kTransitionInfoKey: TransitionInfo(
                         hasTransition: true,

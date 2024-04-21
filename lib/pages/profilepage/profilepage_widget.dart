@@ -258,65 +258,45 @@ class _ProfilepageWidgetState extends State<ProfilepageWidget>
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(4.0, 0.0, 4.0, 0.0),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed(
-                              'transferFunds',
-                              extra: <String, dynamic>{
-                                kTransitionInfoKey: TransitionInfo(
-                                  hasTransition: true,
-                                  transitionType:
-                                      PageTransitionType.bottomToTop,
-                                  duration: Duration(milliseconds: 220),
+                        child: Container(
+                          width: MediaQuery.sizeOf(context).width * 0.24,
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context).darkBackground,
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                          child: Padding(
+                            padding: EdgeInsets.all(12.0),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 0.0, 0.0, 12.0),
+                                  child: Icon(
+                                    Icons.swap_horiz_outlined,
+                                    color:
+                                        FlutterFlowTheme.of(context).textColor,
+                                    size: 36.0,
+                                  ),
                                 ),
-                              },
-                            );
-                          },
-                          child: Container(
-                            width: MediaQuery.sizeOf(context).width * 0.24,
-                            decoration: BoxDecoration(
-                              color:
-                                  FlutterFlowTheme.of(context).darkBackground,
-                              borderRadius: BorderRadius.circular(8.0),
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.all(12.0),
-                              child: Column(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: [
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 0.0, 0.0, 12.0),
-                                    child: Icon(
-                                      Icons.swap_horiz_outlined,
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 4.0, 0.0, 0.0),
+                                  child: Text(
+                                    FFLocalizations.of(context).getText(
+                                      '8nac51xz' /* Transfer */,
+                                    ),
+                                    style: GoogleFonts.getFont(
+                                      'Lexend Deca',
                                       color: FlutterFlowTheme.of(context)
                                           .textColor,
-                                      size: 36.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 4.0, 0.0, 0.0),
-                                    child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        '8nac51xz' /* Transfer */,
-                                      ),
-                                      style: GoogleFonts.getFont(
-                                        'Lexend Deca',
-                                        color: FlutterFlowTheme.of(context)
-                                            .textColor,
-                                        fontSize: 12.0,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -326,55 +306,45 @@ class _ProfilepageWidgetState extends State<ProfilepageWidget>
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(4.0, 0.0, 0.0, 0.0),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.goNamed('MY_Card');
-                          },
-                          child: Container(
-                            width: MediaQuery.sizeOf(context).width * 0.24,
-                            decoration: BoxDecoration(
-                              color:
-                                  FlutterFlowTheme.of(context).darkBackground,
-                              borderRadius: BorderRadius.circular(8.0),
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.all(12.0),
-                              child: Column(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: [
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 0.0, 0.0, 12.0),
-                                    child: Icon(
-                                      Icons.stacked_line_chart_rounded,
+                        child: Container(
+                          width: MediaQuery.sizeOf(context).width * 0.24,
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context).darkBackground,
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                          child: Padding(
+                            padding: EdgeInsets.all(12.0),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 0.0, 0.0, 12.0),
+                                  child: Icon(
+                                    Icons.stacked_line_chart_rounded,
+                                    color:
+                                        FlutterFlowTheme.of(context).textColor,
+                                    size: 36.0,
+                                  ),
+                                ),
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 4.0, 0.0, 0.0),
+                                  child: Text(
+                                    FFLocalizations.of(context).getText(
+                                      's56t3xya' /* Activity */,
+                                    ),
+                                    style: GoogleFonts.getFont(
+                                      'Lexend Deca',
                                       color: FlutterFlowTheme.of(context)
                                           .textColor,
-                                      size: 36.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 4.0, 0.0, 0.0),
-                                    child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        's56t3xya' /* Activity */,
-                                      ),
-                                      style: GoogleFonts.getFont(
-                                        'Lexend Deca',
-                                        color: FlutterFlowTheme.of(context)
-                                            .textColor,
-                                        fontSize: 12.0,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                           ),
                         ),

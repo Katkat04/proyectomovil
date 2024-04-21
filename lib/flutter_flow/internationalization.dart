@@ -326,12 +326,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': 'Vollständiges Profil',
       'es': 'Perfil completo',
     },
-    'w75dikic': {
-      'en': 'Skip for Now',
-      'ar': 'تخطي في الوقت الراهن',
-      'de': 'Für jetzt überspringen',
-      'es': 'Saltar por ahora',
-    },
     '1eac148w': {
       'en': 'Field is required',
       'ar': '',
@@ -399,269 +393,43 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // onboarding
-  {
-    'i8hl2uua': {
-      'en': 'Create Budgets',
-      'ar': 'إنشاء الميزانيات',
-      'de': 'Erstellen Sie Budgets',
-      'es': 'Crear presupuestos',
-    },
-    'hxtwax0y': {
-      'en':
-          'Create budgets that you can tie transactions too in order for easy tracking.',
-      'ar':
-          'قم بإنشاء ميزانيات يمكنك ربط المعاملات بها أيضًا من أجل التتبع السهل.',
-      'de':
-          'Erstellen Sie Budgets, mit denen Sie auch Transaktionen verknüpfen können, um sie einfach nachverfolgen zu können.',
-      'es':
-          'Cree presupuestos en los que también pueda vincular transacciones para facilitar el seguimiento.',
-    },
-    'mjy3ljln': {
-      'en': 'Keep Track of Spending',
-      'ar': 'تتبع الإنفاق',
-      'de': 'Behalten Sie die Ausgaben im Auge',
-      'es': 'Mantenga un registro de los gastos',
-    },
-    'uf9k1spp': {
-      'en':
-          'Easily add transactions and associate them with budgets that have been created.',
-      'ar': 'أضف المعاملات بسهولة وربطها بالميزانيات التي تم إنشاؤها.',
-      'de':
-          'Fügen Sie ganz einfach Transaktionen hinzu und verknüpfen Sie sie mit erstellten Budgets.',
-      'es':
-          'Agregue fácilmente transacciones y asócielas con los presupuestos que se han creado.',
-    },
-    '9c4outzf': {
-      'en': 'Budget Analysis',
-      'ar': 'تحليل الميزانية',
-      'de': 'Budgetanalyse',
-      'es': 'Análisis de presupuesto',
-    },
-    'q30ina4f': {
-      'en': 'Know where your budgets are and how they can be adjusted.',
-      'ar': 'تعرف على مكان ميزانياتك وكيف يمكن تعديلها.',
-      'de': 'Wissen, wo Ihre Budgets sind und wie sie angepasst werden können.',
-      'es': 'Sepa dónde están sus presupuestos y cómo se pueden ajustar.',
-    },
-    'ypt7b97g': {
-      'en': 'Create Your Budget',
-      'ar': 'إنشاء ميزانيتك',
-      'de': 'Erstellen Sie Ihr Budget',
-      'es': 'Crea tu presupuesto',
-    },
-    'oo0kk9qe': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
-  // createBudgetBegin
-  {
-    'xod9iwab': {
-      'en': 'Create Budget',
-      'ar': 'إنشاء الميزانية',
-      'de': 'Budget erstellen',
-      'es': 'Crear presupuesto',
-    },
-    'wih71x51': {
-      'en': 'Amount',
-      'ar': 'مقدار',
-      'de': 'Höhe',
-      'es': 'Monto',
-    },
-    'qk15nsmc': {
-      'en': 'Budget Name',
-      'ar': 'اسم الميزانية',
-      'de': 'Budgetname',
-      'es': 'Nombre del presupuesto',
-    },
-    'iphvcuwc': {
-      'en': 'Description',
-      'ar': 'وصف',
-      'de': 'Beschreibung',
-      'es': 'Descripción',
-    },
-    'v2shqq3z': {
-      'en': 'Create Budget',
-      'ar': 'إنشاء الميزانية',
-      'de': 'Budget erstellen',
-      'es': 'Crear presupuesto',
-    },
-    'knu0nxbp': {
-      'en': 'Tap above to complete request',
-      'ar': 'اضغط أعلاه لإكمال الطلب',
-      'de': 'Tippen Sie oben, um die Anfrage abzuschließen',
-      'es': 'Toque arriba para completar la solicitud',
-    },
-    '79au6dyg': {
-      'en': 'Please enter an amount',
-      'ar': 'الرجاء إدخال مبلغ',
-      'de': 'Bitte geben Sie einen Betrag ein',
-      'es': 'Por favor ingrese una cantidad',
-    },
-    'cs1cy7tg': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
-  // MY_Card
-  {
-    'xn2so8km': {
-      'en': 'My Card',
-      'ar': 'بطاقتي',
-      'de': 'Meine Karte',
-      'es': 'Mi tarjeta',
-    },
-    '6t7n9ugd': {
-      'en': 'Balance',
-      'ar': 'الرصيد',
-      'de': 'Gleichgewicht',
-      'es': 'Equilibrio',
-    },
-    'h3086ma4': {
-      'en': '\$7,630',
-      'ar': '7630 دولارًا',
-      'de': '\$7.630',
-      'es': '\$7,630',
-    },
-    'lr97k2rc': {
-      'en': '**** 0149',
-      'ar': '**** 0149',
-      'de': '**** 0149',
-      'es': '**** 0149',
-    },
-    'l9racj60': {
-      'en': '05/25',
-      'ar': '05/25',
-      'de': '25.05',
-      'es': '25/05',
-    },
-    '9b0j67se': {
-      'en': 'Income',
-      'ar': 'دخل',
-      'de': 'Einkommen',
-      'es': 'Ingreso',
-    },
-    'axrvkhrv': {
-      'en': '+\$12,402',
-      'ar': '+ 12402 دولار',
-      'de': '+12.402 \$',
-      'es': '+\$12,402',
-    },
-    '0d7w9e0i': {
-      'en': '4.5% ',
-      'ar': '4.5٪',
-      'de': '4,5 %',
-      'es': '4,5%',
-    },
-    'mggh8wu7': {
-      'en': 'Spending',
-      'ar': 'الإنفاق',
-      'de': 'Ausgaben',
-      'es': 'Gasto',
-    },
-    'c5bszisf': {
-      'en': '-\$8,392',
-      'ar': '- 8،392 دولارًا',
-      'de': '-8.392 \$',
-      'es': '-\$8,392',
-    },
-    '85pb8msl': {
-      'en': '4.5% ',
-      'ar': '4.5٪',
-      'de': '4,5 %',
-      'es': '4,5%',
-    },
-    'yet7zk5d': {
-      'en': 'Quick Service',
-      'ar': 'خدمة سريعة',
-      'de': 'Schneller Service',
-      'es': 'Servicio rapido',
-    },
-    '8bnd6lco': {
-      'en': 'Transfer',
-      'ar': 'تحويل',
-      'de': 'Transfer',
-      'es': 'Transferir',
-    },
-    'roobc02h': {
-      'en': 'Pause Card',
-      'ar': 'بطاقة وقفة',
-      'de': 'Pausenkarte',
-      'es': 'Tarjeta de pausa',
-    },
-    '27pb7ji4': {
-      'en': 'Transaction',
-      'ar': 'عملية',
-      'de': 'Transaktion',
-      'es': 'Transacción',
-    },
-    'xs4cn7uk': {
-      'en': 'Income',
-      'ar': 'دخل',
-      'de': 'Einkommen',
-      'es': 'Ingreso',
-    },
-    'm8rhanhc': {
-      'en': '•',
-      'ar': '•',
-      'de': '•',
-      'es': '•',
-    },
-  },
-  // MY_Budgets
+  // MY_Reports
   {
     'cd0zp71n': {
-      'en': 'My Budget',
+      'en': 'My Reports',
       'ar': 'ميزانيتي',
       'de': 'Mein Budget',
       'es': 'Mi presupuesto',
     },
-    'hfwbiivj': {
-      'en': 'Income',
-      'ar': 'دخل',
-      'de': 'Einkommen',
-      'es': 'Ingreso',
+    '9il8u06k': {
+      'en': 'Report',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
-    'jjj3ydb1': {
-      'en': '+\$12,402',
-      'ar': '+ 12402 دولار',
-      'de': '+12.402 \$',
-      'es': '+\$12,402',
+    'yvhhudxi': {
+      'en': 'Solving wifi',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
-    'ns4vt604': {
-      'en': '4.5% ',
-      'ar': '4.5٪',
-      'de': '4,5 %',
-      'es': '4,5%',
-    },
-    'wcsc04wg': {
-      'en': 'Spending',
-      'ar': 'الإنفاق',
-      'de': 'Ausgaben',
-      'es': 'Gasto',
-    },
-    'a5zzlh8f': {
-      'en': '-\$8,392',
-      'ar': '- 8،392 دولارًا',
-      'de': '-8.392 \$',
-      'es': '-\$8,392',
-    },
-    '8xnbsdnb': {
-      'en': '4.5% ',
-      'ar': '4.5٪',
-      'de': '4,5 %',
-      'es': '4,5%',
+    'okyphbdu': {
+      'en': '5 hours working',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
     'c81i1ybg': {
       'en': 'Total Spent',
       'ar': 'إجمال الصرف',
       'de': 'Gesamtausgaben',
       'es': 'Total gastado',
+    },
+    'rrbwd2z6': {
+      'en': '\$2,502',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
     'ah4t7cpx': {
       'en': 'Advertising Budget',
@@ -730,51 +498,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '•',
     },
   },
-  // paymentDetails
-  {
-    'j0yzgf4n': {
-      'en': 'Details',
-      'ar': 'تفاصيل',
-      'de': 'Einzelheiten',
-      'es': 'Detalles',
-    },
-    'zv72ekdw': {
-      'en': 'Amount',
-      'ar': 'مقدار',
-      'de': 'Höhe',
-      'es': 'Monto',
-    },
-    '0rjyjwed': {
-      'en': 'Vendor',
-      'ar': 'بائع',
-      'de': 'Verkäufer',
-      'es': 'Vendedor',
-    },
-    'eeyn6dk2': {
-      'en': 'When',
-      'ar': 'متى',
-      'de': 'Wann',
-      'es': 'Cuándo',
-    },
-    'lccxx6eu': {
-      'en': 'Reason',
-      'ar': 'سبب',
-      'de': 'Grund',
-      'es': 'Razón',
-    },
-    'jzyax4hn': {
-      'en': 'Spent by',
-      'ar': 'أنفقه',
-      'de': 'Verbracht von',
-      'es': 'gastado por',
-    },
-    'i4r9jqwn': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
   // MY_profilePage
   {
     'f1bvbey3': {
@@ -801,18 +524,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': 'Benachrichtigungseinstellungen',
       'es': 'Configuración de las notificaciones',
     },
-    '9aogde79': {
-      'en': 'Tutorial',
-      'ar': 'درس تعليمي',
-      'de': 'Lernprogramm',
-      'es': 'Tutorial',
-    },
-    'eojlfs66': {
-      'en': 'Privacy Policy',
-      'ar': 'سياسة الخصوصية',
-      'de': 'Datenschutz-Bestimmungen',
-      'es': 'Política de privacidad',
-    },
     '2ll42t1u': {
       'en': 'Dark Mode',
       'ar': '',
@@ -832,31 +543,31 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '•',
     },
   },
-  // budgetDetails
+  // reportDetails
   {
-    'p0gf1lfy': {
-      'en': 'Per Month',
-      'ar': 'كل شهر',
-      'de': 'Pro Monat',
-      'es': 'Por mes',
+    '9yi3zs3z': {
+      'en': '',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'akubzhk3': {
+      'en': '5 hours working',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
     'ti7ipegi': {
-      'en': 'Total Spent',
+      'en': ' N° Report',
       'ar': 'إجمال الصرف',
       'de': 'Gesamtausgaben',
       'es': 'Total gastado',
     },
-    'ifi6fmsa': {
-      'en': 'Transactions',
-      'ar': 'المعاملات',
-      'de': 'Transaktionen',
-      'es': 'Actas',
-    },
-    'ak9m8szp': {
-      'en': 'Income',
-      'ar': 'دخل',
-      'de': 'Einkommen',
-      'es': 'Ingreso',
+    'o7a8ijm4': {
+      'en': '2,502',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
     'l53kroui': {
       'en': 'Home',
@@ -868,14 +579,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // transferComplete
   {
     'xf8d4sm8': {
-      'en': 'Transfer Complete',
+      'en': 'Task Complete',
       'ar': 'نقل كامل',
       'de': 'Übertragung vollständig',
       'es': 'transferencia completa',
     },
     'iq9jjji8': {
-      'en':
-          'Great work, you successfully transferred funds. It may take a few days for the funds to leave your account.',
+      'en': 'Great work, your report will be put in the report view.',
       'ar':
           'عمل رائع ، لقد قمت بتحويل الأموال بنجاح. قد يستغرق خروج الأموال من حسابك بضعة أيام.',
       'de':
@@ -896,148 +606,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // transferFunds
-  {
-    'pe3o18oh': {
-      'en': 'Transfer Funds',
-      'ar': 'تحويل الأموال',
-      'de': 'Geld überweisen',
-      'es': 'Transferir fondos',
-    },
-    'kyzwrfh4': {
-      'en': 'Balance',
-      'ar': 'الرصيد',
-      'de': 'Gleichgewicht',
-      'es': 'Equilibrio',
-    },
-    'zq4ozx20': {
-      'en': '\$7,630',
-      'ar': '7630 دولارًا',
-      'de': '\$7.630',
-      'es': '\$7,630',
-    },
-    'qukh7yo1': {
-      'en': '**** 0149',
-      'ar': '**** 0149',
-      'de': '**** 0149',
-      'es': '**** 0149',
-    },
-    'n87hkr7d': {
-      'en': '05/25',
-      'ar': '05/25',
-      'de': '25.05',
-      'es': '25/05',
-    },
-    '3ct4fj7p': {
-      'en': 'Change Account',
-      'ar': 'تغير الحساب',
-      'de': 'Account wechseln',
-      'es': 'Cambiar cuenta',
-    },
-    'w4smsh2i': {
-      'en': 'Internal Transfer',
-      'ar': 'التحويل الداخلي',
-      'de': 'Interner Transfer',
-      'es': 'Transferencia interna',
-    },
-    '6uxty3hy': {
-      'en': 'External Transfer',
-      'ar': 'التحويل الخارجي',
-      'de': 'Externe Übertragung',
-      'es': 'Transferencia externa',
-    },
-    'p4ngma0d': {
-      'en': 'ACH Payment',
-      'ar': 'دفع ACH',
-      'de': 'ACH-Zahlung',
-      'es': 'Pago CCA',
-    },
-    'uxo87fjc': {
-      'en': 'Transfer Type',
-      'ar': '',
-      'de': '',
-      'es': '',
-    },
-    'fddma8xl': {
-      'en': 'Select Account',
-      'ar': 'حدد حساب',
-      'de': 'Konto auswählen',
-      'es': 'Seleccionar cuenta',
-    },
-    '23l6kqgm': {
-      'en': 'Account ****2010',
-      'ar': 'الحساب **** 2010',
-      'de': 'Konto ****2010',
-      'es': 'Cuenta ****2010',
-    },
-    '3hwdfadf': {
-      'en': 'Account ****2011',
-      'ar': 'الحساب **** 2011',
-      'de': 'Konto ****2011',
-      'es': 'Cuenta ****2011',
-    },
-    'xvj00xg1': {
-      'en': 'Account ****2012',
-      'ar': 'الحساب **** 2012',
-      'de': 'Konto ****2012',
-      'es': 'Cuenta ****2012',
-    },
-    'ok5xluvk': {
-      'en': 'Choose an Account',
-      'ar': '',
-      'de': '',
-      'es': '',
-    },
-    'ynie0pc5': {
-      'en': '\$ Amount',
-      'ar': 'المبلغ بالدولار',
-      'de': '\$ Betrag',
-      'es': '\$ Monto',
-    },
-    'wngoi0v4': {
-      'en': 'Your new account balance is:',
-      'ar': 'رصيد حسابك الجديد هو:',
-      'de': 'Ihr neuer Kontostand beträgt:',
-      'es': 'El nuevo saldo de su cuenta es:',
-    },
-    'g6bfec2g': {
-      'en': '\$7,630',
-      'ar': '7630 دولارًا',
-      'de': '\$7.630',
-      'es': '\$7,630',
-    },
-    'xaw2jdst': {
-      'en': 'Send Transfer',
-      'ar': 'أرسل حوالة',
-      'de': 'Überweisung senden',
-      'es': 'Enviar transferencia',
-    },
-    'xku4zxbe': {
-      'en': 'Tap above to complete transfer',
-      'ar': 'اضغط أعلاه لإكمال النقل',
-      'de': 'Tippen Sie oben, um die Übertragung abzuschließen',
-      'es': 'Toque arriba para completar la transferencia',
-    },
-    'imaejg7x': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
-  // requestFunds
+  // AsignTask
   {
     'wv1862li': {
-      'en': 'Request Funds',
+      'en': 'Send Task',
       'ar': 'طلب التمويل',
       'de': 'Geld anfordern',
       'es': 'Pedír fondos',
-    },
-    'xvj3fan8': {
-      'en': '\$ Amount',
-      'ar': 'المبلغ بالدولار',
-      'de': '\$ Betrag',
-      'es': '\$ Monto',
     },
     'wwjahvpl': {
       'en': 'Office Budget',
@@ -1088,25 +663,31 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // createBudget
+  // createReportsUS
   {
     'smbfunwu': {
-      'en': 'Create Budget',
+      'en': 'Create Report',
       'ar': 'إنشاء الميزانية',
       'de': 'Budget erstellen',
       'es': 'Crear presupuesto',
     },
-    'fcgw57wj': {
-      'en': 'Amount',
-      'ar': 'مقدار',
-      'de': 'Höhe',
-      'es': 'Monto',
-    },
     'onjddqdc': {
-      'en': 'Budget Name',
+      'en': 'Problem Name',
       'ar': 'اسم الميزانية',
       'de': 'Budgetname',
       'es': 'Nombre del presupuesto',
+    },
+    'nslg15rr': {
+      'en': 'Start Time',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '6x6nohek': {
+      'en': 'End Time',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
     'g83gfmaf': {
       'en': 'Description',
@@ -1115,16 +696,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Descripción',
     },
     '0iex13x2': {
-      'en': 'Create Budget',
+      'en': 'Create Report',
       'ar': 'إنشاء الميزانية',
       'de': 'Budget erstellen',
       'es': 'Crear presupuesto',
-    },
-    'jy5q09h1': {
-      'en': 'Tap above to complete request',
-      'ar': 'اضغط أعلاه لإكمال الطلب',
-      'de': 'Tippen Sie oben, um die Anfrage abzuschließen',
-      'es': 'Toque arriba para completar la solicitud',
     },
     '8hzaiw1r': {
       'en': 'Please enter an amount',
@@ -1133,156 +708,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Por favor ingrese una cantidad',
     },
     'mos068mm': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
-  // transaction_ADD
-  {
-    'qywon4k1': {
-      'en': 'Add Transaction',
-      'ar': 'أضف معاملة',
-      'de': 'Transaktion hinzufügen',
-      'es': 'Agregar transacción',
-    },
-    'bh9tad8e': {
-      'en': 'Amount',
-      'ar': 'مقدار',
-      'de': 'Höhe',
-      'es': 'Monto',
-    },
-    'ohewrgsv': {
-      'en': 'Spent At',
-      'ar': 'أنفقت في',
-      'de': 'Verbracht bei',
-      'es': 'gastado en',
-    },
-    '3170k9n1': {
-      'en': 'Office Budget',
-      'ar': 'ميزانية المكتب',
-      'de': 'Bürobudget',
-      'es': 'Presupuesto de oficina',
-    },
-    'abz6nm8z': {
-      'en': 'External Transfer',
-      'ar': 'التحويل الخارجي',
-      'de': 'Externe Übertragung',
-      'es': 'Transferencia externa',
-    },
-    '3y95vtb6': {
-      'en': 'ACH Payment',
-      'ar': 'دفع ACH',
-      'de': 'ACH-Zahlung',
-      'es': 'Pago CCA',
-    },
-    '861el4k4': {
-      'en': 'Select Budget',
-      'ar': 'حدد الميزانية',
-      'de': 'Wählen Sie Budget aus',
-      'es': 'Seleccionar presupuesto',
-    },
-    'swxms7ln': {
-      'en': 'Reason',
-      'ar': 'سبب',
-      'de': 'Grund',
-      'es': 'Razón',
-    },
-    'uqfgu088': {
-      'en': 'Add Transaction',
-      'ar': 'أضف معاملة',
-      'de': 'Transaktion hinzufügen',
-      'es': 'Agregar transacción',
-    },
-    '9stmpsf0': {
-      'en': 'Tap above to complete request',
-      'ar': 'اضغط أعلاه لإكمال الطلب',
-      'de': 'Tippen Sie oben, um die Anfrage abzuschließen',
-      'es': 'Toque arriba para completar la solicitud',
-    },
-    'gzhmf1t6': {
-      'en': 'Please enter an amount',
-      'ar': 'الرجاء إدخال مبلغ',
-      'de': 'Bitte geben Sie einen Betrag ein',
-      'es': 'Por favor ingrese una cantidad',
-    },
-    '7trcsuiu': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
-  // transaction_EDIT
-  {
-    's300dyxl': {
-      'en': 'Edit Transaction',
-      'ar': 'تحرير المعاملة',
-      'de': 'Transaktion bearbeiten',
-      'es': 'Editar transacción',
-    },
-    '5xgwlwjj': {
-      'en': 'Amount',
-      'ar': 'مقدار',
-      'de': 'Höhe',
-      'es': 'Monto',
-    },
-    '720k2d98': {
-      'en': 'Spent At',
-      'ar': 'أنفقت في',
-      'de': 'Verbracht bei',
-      'es': 'gastado en',
-    },
-    'df1ingy2': {
-      'en': 'Office Budget',
-      'ar': 'ميزانية المكتب',
-      'de': 'Bürobudget',
-      'es': 'Presupuesto de oficina',
-    },
-    '5kzmka3y': {
-      'en': 'External Transfer',
-      'ar': 'التحويل الخارجي',
-      'de': 'Externe Übertragung',
-      'es': 'Transferencia externa',
-    },
-    'nvtz0bpd': {
-      'en': 'ACH Payment',
-      'ar': 'دفع ACH',
-      'de': 'ACH-Zahlung',
-      'es': 'Pago CCA',
-    },
-    'l3bqo3oh': {
-      'en': 'Select Budget',
-      'ar': 'حدد الميزانية',
-      'de': 'Wählen Sie Budget aus',
-      'es': 'Seleccionar presupuesto',
-    },
-    '0lw03w43': {
-      'en': 'Reason',
-      'ar': 'سبب',
-      'de': 'Grund',
-      'es': 'Razón',
-    },
-    '3eftlbxd': {
-      'en': 'Update Transaction',
-      'ar': 'تحديث المعاملة',
-      'de': 'Transaktion aktualisieren',
-      'es': 'Actualizar transacción',
-    },
-    '4atjd0yh': {
-      'en': 'Tap above to save your changes.',
-      'ar': 'اضغط أعلاه لحفظ التغييرات الخاصة بك.',
-      'de': 'Tippen Sie oben, um Ihre Änderungen zu speichern.',
-      'es': 'Toca arriba para guardar tus cambios.',
-    },
-    'pg18rcyu': {
-      'en': 'Please enter an amount',
-      'ar': 'الرجاء إدخال مبلغ',
-      'de': 'Bitte geben Sie einen Betrag ein',
-      'es': 'Por favor ingrese una cantidad',
-    },
-    '12if11ss': {
       'en': 'Home',
       'ar': 'مسكن',
       'de': 'Heim',
@@ -1478,95 +903,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // privacyPolicy
-  {
-    'alczfiiy': {
-      'en': 'Privacy Policy',
-      'ar': 'سياسة الخصوصية',
-      'de': 'Datenschutz-Bestimmungen',
-      'es': 'Política de privacidad',
-    },
-    'fvsfg5on': {
-      'en': 'How we use your data',
-      'ar': 'كيف نستخدم بياناتك',
-      'de': 'Wie wir Ihre Daten verwenden',
-      'es': 'Cómo usamos sus datos',
-    },
-    'nbiyrnzl': {
-      'en':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi tempus. Non consectetur a erat nam. Donec ultrices tincidunt arcu non sodales. Velit sed ullamcorper morbi tincidunt. Molestie a iaculis at erat pellentesque adipiscing. Mauris nunc congue nisi vitae. Nisl tincidunt eget nullam non nisi. Faucibus nisl tincidunt eget nullam non nisi est. Leo duis ut diam quam nulla.\n\nEuismod lacinia at quis risus sed vulputate odio. Velit dignissim sodales ut eu sem integer vitae justo eget. Risus feugiat in ante metus. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Suscipit tellus mauris a diam maecenas sed enim ut sem. Sem integer vitae justo eget magna fermentum iaculis eu. Lacinia at quis risus sed. Faucibus purus in massa tempor. Leo a diam sollicitudin tempor id eu. Nisi scelerisque eu ultrices vitae auctor. Vulputate dignissim suspendisse in est ante in. Enim neque volutpat ac tincidunt vitae semper quis. Ipsum dolor sit amet consectetur adipiscing elit.\n\nEt malesuada fames ac turpis egestas maecenas pharetra convallis. Sed sed risus pretium quam vulputate. Elit pellentesque habitant morbi tristique senectus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Sit amet mattis vulputate enim nulla. Nisi lacus sed viverra tellus in hac habitasse. Sit amet risus nullam eget felis eget nunc lobortis. Pretium lectus quam id leo in vitae. Adipiscing diam donec adipiscing tristique. Commodo sed egestas egestas fringilla. Ipsum dolor sit amet consectetur adipiscing. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Montes nascetur ridiculus mus mauris. Ut etiam sit amet nisl purus in. Arcu ac tortor dignissim convallis aenean et tortor at. Ornare suspendisse sed nisi lacus sed viverra.',
-      'ar':
-          'Lorem ipsum dolor sit amet، consectetur adipiscing elit، sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi tempus. غير consectetur a erat nam. دونك ألتريسيس تينسيدونت قوس غير مخادع. Velit sed ullamcorper morbi tincidunt. Molestie a iaculis في erat pellentesque adipiscing. موريس نونك كونيج سيرة ذاتية. Nisl tincidunt eget nullam non nisi. Faucibus nisl tincidunt eget nullam non nisi est. Leo duis ut diam quam nulla. Euismod lacinia في quis risus sed vulputate odio. فيليت كريمينسيم sodales ut eu sem سيرة ذاتية صحيحة justo eget. Risus feugiat في ما قبل ميتوس. Leo vel orci porta non pulvinar neque laoreet suspension interdum. Suscipit Tellus mauris a Diam Maecenas Sed enim ut sem. SEM السيرة الذاتية الصحيحة justo eget magna fermentum iaculis eu. لاسينيا في quis risus sed. Faucibus purus في ماسا مؤقت. ليو بقطر سوليتودين معرف مؤقت الاتحاد الأوروبي. Nisi scelerisque eu ultrices السيرة الذاتية موصل. Vulputate كريم معلق في وقت مبكر. Enim neque volutpat ac tincidunt vitae semper quis. Ipsum dolor sit amet consectetur adipiscing elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Sed sed risus Préium quam vulputate. Elit pellentesque موطن morbi tristique senectus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. sit amet mattis vulputate enim nulla. Nisi lacus sed viverra Tellus في العادة السيئة. اجلس أميت ريسوس نولام إيجيت فيليس إيجيت نونك لوبورتيز. Pretium lectus quam id leo in vitae. Adipiscing Diam donec adipiscing tristique. كومودو سيد egestas egestas fringilla. Ipsum dolor sit amet consectetur adipiscing. Ipsum dolor sit amet consectetur adipiscing النخبة pellentesque المعيشية morbi. مونتيس ناسيتور ريديكولوس موس موريس. Ut etiam sit amet nisl purus in. Arcu ac Ornare suspendisse sed nisi lacus sed viverra.',
-      'de':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi tempus. Non consectetur a erat nam. Donec ultrices tincidunt arcu non sodales. Velit sed ullamcorper morbi tincidunt. Molestie a iaculis bei erat pellentesque adipiscing. Mauris nunc congue nisi vitae. Nisl tincidunt eget nullam non nisi. Faucibus nisl tincidunt eget nullam non nisi est. Leo duis ut diam quam nulla. Euismod lacinia at quis risus sed vulputate odio. Velit dignissim sodales ut eu sem integer vitae justo eget. Risus feugiat in ante metus. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Suscipit tellus mauris a diam maecenas sed enim ut sem. Sem integer vitae justo eget magna fermentum iaculis eu. Lacinia bei quis risus sed. Faucibus purus in massa tempor. Leo a diam sollicitudin tempor id eu. Nisi scelerisque eu ultrices vitae auctor. Vulputate dignissim suspendisse in est ante in. Enim neque volutpat ac tincidunt vitae semper quis. Ipsum dolor sit amet consectetur adipiscing elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Sed sed risus pretium quam vulputate. Elit pellentesque habitant morbi tristique senectus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Sit amet mattis vulputate enim nulla. Nisi lacus sed viverra tellus in hac habitasse. Sit amet risus nullam eget felis eget nunc lobortis. Pretium lectus quam id leo in vitae. Adipiscing diam donec adipiscing tristique. Commodo sed egestas egestas fringilla. Ipsum dolor sit amet consectetur adipiscing. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Montes nascetur ridiculus mus mauris. Ut etiam sit amet nisl purus in. Arcu ac tortor dignissim convallis aenean et tortor at. Ornare suspendisse sed nisi lacus sed viverra.',
-      'es':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan sit amet nulla facilisi morbi tempus. Non consectetur a erat nam. Donec ultrices tincidunt arcu non sodales. Velit sed ullamcorper morbi tincidunt. Molestie a iaculis at erat pellentesque adipiscing. Mauris nunc congue nisi vitae. Nisl tincidunt eget nullam non nisi. Faucibus nisl tincidunt eget nullam non nisi est. Leo duis ut diam quam nulla. Euismod lacinia at quis risus sed vulputate odio. Velit dignissim sodales ut eu sem integer vitae justo eget. Risus feugiat in ante metus. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Suscipit tellus mauris a diam maecenas sed enim ut sem. Sem entero vitae justo eget magna fermentum iaculis eu. Lacinia at quis risus sed. Faucibus purus en massa tempor. Leo a diam sollicitudin tempor id eu. Nisi scelerisque eu ultrices vitae auctor. Vulputate dignissim suspendisse in est ante in. Enim neque volutpat ac tincidunt vitae semper quis. Ipsum dolor sit amet consectetur adipiscing elit. Et malesuada fames ac turpis egestas maecenas pharetra convallis. Sed sed risus pretium quam vulputate. Elit pellentesque habitant morbi tristique senectus et. Viverra maecenas accumsan lacus vel facilisis volutpat est. Sit amet mattis vulputate enim nulla. Nisi lacus sed viverra tellus in hac habitasse. Sit amet risus nullam eget felis eget nunc lobortis. Pretium lectus quam id leo in vitae. Adipiscing diam donec adipiscing tristique. Cómodo sed egestas egestas fringilla. Ipsum dolor sit amet consectetur adipiscing. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Montes nascetur ridiculus mus mauris. Ut etiam sit amet nisl purus in. Arcu ac tortor dignissim convallis aenean et tortor at. Ornare suspendisse sed nisi lacus sed viverra.',
-    },
-    'oks4x95o': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
-  // tutorial_PROFILE
-  {
-    '38wb3rix': {
-      'en': 'Tutorial',
-      'ar': 'درس تعليمي',
-      'de': 'Lernprogramm',
-      'es': 'Tutorial',
-    },
-    'o6prpb1q': {
-      'en': 'Create Budgets',
-      'ar': 'إنشاء الميزانيات',
-      'de': 'Erstellen Sie Budgets',
-      'es': 'Crear presupuestos',
-    },
-    '292pbdw7': {
-      'en':
-          'Create budgets that you can tie transactions too in order for easy tracking.',
-      'ar':
-          'قم بإنشاء ميزانيات يمكنك ربط المعاملات بها أيضًا من أجل التتبع السهل.',
-      'de':
-          'Erstellen Sie Budgets, mit denen Sie auch Transaktionen verknüpfen können, um sie einfach nachverfolgen zu können.',
-      'es':
-          'Cree presupuestos en los que también pueda vincular transacciones para facilitar el seguimiento.',
-    },
-    'b10xvuf9': {
-      'en': 'Keep Track of Spending',
-      'ar': 'تتبع الإنفاق',
-      'de': 'Behalten Sie die Ausgaben im Auge',
-      'es': 'Mantenga un registro de los gastos',
-    },
-    't6k1smsm': {
-      'en':
-          'Easily add transactions and associate them with budgets that have been created.',
-      'ar': 'أضف المعاملات بسهولة وربطها بالميزانيات التي تم إنشاؤها.',
-      'de':
-          'Fügen Sie ganz einfach Transaktionen hinzu und verknüpfen Sie sie mit erstellten Budgets.',
-      'es':
-          'Agregue fácilmente transacciones y asócielas con los presupuestos que se han creado.',
-    },
-    'u8xxj427': {
-      'en': 'Budget Analysis',
-      'ar': 'تحليل الميزانية',
-      'de': 'Budgetanalyse',
-      'es': 'Análisis de presupuesto',
-    },
-    'iqi0pkmb': {
-      'en': 'Know where your budgets are and how they can be adjusted.',
-      'ar': 'تعرف على مكان ميزانياتك وكيف يمكن تعديلها.',
-      'de': 'Wissen, wo Ihre Budgets sind und wie sie angepasst werden können.',
-      'es': 'Sepa dónde están sus presupuestos y cómo se pueden ajustar.',
-    },
-    'uydm0fnm': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
   // homePage_UC
   {
     'ucqlrrlk': {
@@ -1713,152 +1049,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': 'Herzlich willkommen,',
       'es': 'Bienvenidos,',
     },
-    'v74pa882': {
-      'en': 'Andrew',
-      'ar': 'أندرو',
-      'de': 'Andreas',
-      'es': 'Andrés',
-    },
     'rzpg3cvh': {
       'en': 'Your latest updates are below.',
       'ar': 'آخر التحديثات الخاصة بك أدناه.',
       'de': 'Ihre neuesten Updates sind unten.',
       'es': 'Sus últimas actualizaciones se encuentran a continuación.',
     },
-    'flto6ti8': {
-      'en': 'Total Balance',
-      'ar': 'إجمالي الرصيد',
-      'de': 'Gesamtsaldo',
-      'es': 'Balance total',
-    },
-    'g07h0azf': {
-      'en': '\$25,281',
-      'ar': '25281 دولارًا',
-      'de': '25.281 \$',
-      'es': '\$25,281',
-    },
-    'v9ghmn0y': {
-      'en': 'Total Balance',
-      'ar': 'إجمالي الرصيد',
-      'de': 'Gesamtsaldo',
-      'es': 'Balance total',
-    },
-    '7vf40ybo': {
-      'en': '\$25,281',
-      'ar': '25281 دولارًا',
-      'de': '25.281 \$',
-      'es': '\$25,281',
-    },
-    'k4scs2cu': {
-      'en': 'Total Balance',
-      'ar': 'إجمالي الرصيد',
-      'de': 'Gesamtsaldo',
-      'es': 'Balance total',
-    },
-    'cvrbfozm': {
-      'en': '\$25,281',
-      'ar': '25281 دولارًا',
-      'de': '25.281 \$',
-      'es': '\$25,281',
-    },
-    'a33ldz0h': {
-      'en': 'Next Payroll',
-      'ar': 'كشوف المرتبات التالية',
-      'de': 'Nächste Gehaltsabrechnung',
-      'es': 'Nómina siguiente',
-    },
-    '3dgzzz79': {
-      'en': '\$25,281',
-      'ar': '25281 دولارًا',
-      'de': '25.281 \$',
-      'es': '\$25,281',
-    },
-    'hp28r17l': {
-      'en': 'Debit Date',
-      'ar': 'تاريخ الخصم',
-      'de': 'Belastungsdatum',
-      'es': 'Fecha de débito',
-    },
-    'k04gl6sz': {
-      'en': 'Aug 31, 2021',
-      'ar': '31 أغسطس 2021',
-      'de': '31. August 2021',
-      'es': '31 de agosto de 2021',
-    },
-    'd5tcdo3w': {
-      'en': '4 days left',
-      'ar': 'باقي 4 ايام',
-      'de': 'noch 4 Tage',
-      'es': '4 días restantes',
-    },
-    '8wofym4i': {
-      'en': '1 New Alert',
-      'ar': '1 تنبيه جديد',
-      'de': '1 Neue Benachrichtigung',
-      'es': '1 nueva alerta',
-    },
-    'kaq4nzj6': {
-      'en': 'Fraud Alert',
-      'ar': 'تنبيه الاحتيال',
-      'de': 'Betrugsalarm',
-      'es': 'Alerta de fraude',
-    },
-    '7zcrtqx6': {
-      'en':
-          'We noticed a small charge that is out of character of this account, please review.',
-      'ar': 'لقد لاحظنا تكلفة صغيرة خارجة عن طبيعة هذا الحساب ، يرجى المراجعة.',
-      'de':
-          'Wir haben eine kleine Belastung festgestellt, die für dieses Konto untypisch ist. Bitte überprüfen Sie diese.',
-      'es':
-          'Notamos un pequeño cargo que está fuera de lugar en esta cuenta, revíselo.',
-    },
-    '23yxoc9m': {
-      'en': 'View Now',
-      'ar': 'عرض الآن',
-      'de': 'Jetzt ansehen',
-      'es': 'Ver ahora',
-    },
-    'a86mwddx': {
-      'en': 'Marketing Budget',
-      'ar': 'ميزانية التسويق',
-      'de': 'Werbehaushalt, Werbebudget',
-      'es': 'Presupuesto de marketing',
-    },
-    '6c2o39hz': {
-      'en': '\$3,000',
-      'ar': '3000 دولار',
-      'de': '3.000 \$',
-      'es': '\$3,000',
-    },
-    '5subrra4': {
-      'en': 'Total Spent',
-      'ar': 'إجمال الصرف',
-      'de': 'Gesamtausgaben',
-      'es': 'Total gastado',
-    },
-    '0wtm2m51': {
-      'en': '\$2,502',
-      'ar': '2،502 دولار',
-      'de': '2.502 \$',
-      'es': '\$2,502',
-    },
-    'bp9d56pc': {
-      'en': '4 days left',
-      'ar': 'باقي 4 ايام',
-      'de': 'noch 4 Tage',
-      'es': '4 días restantes',
-    },
     'b8oj0pck': {
       'en': 'Team Name',
       'ar': 'اسم الفريق',
       'de': 'Teamname',
       'es': 'Nombre del equipo',
-    },
-    '87ospwsq': {
-      'en': '\$5,000',
-      'ar': '5000 دولار',
-      'de': '5.000 \$',
-      'es': '\$5,000',
     },
     'jzfejglt': {
       'en': 'Head of Design',
@@ -1872,6 +1073,30 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': '[Zeitstempel]',
       'es': '[Marca de tiempo]',
     },
+    'cibd5rqo': {
+      'en': '+ Add Report',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'qutt9ik0': {
+      'en': 'In this section report the problem solved. ',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'qnfpdbpa': {
+      'en': 'View Reports',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'lbmqucda': {
+      'en': 'View the history of reports here.',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
     '8hu2v2im': {
       'en': '•',
       'ar': '•',
@@ -1879,17 +1104,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '•',
     },
   },
-  // budget_DELETE
+  // Report_DELETE
   {
     'pozov0xz': {
-      'en': 'Delete Budget',
+      'en': 'Delete Report',
       'ar': 'حذف الميزانية',
       'de': 'Budget löschen',
       'es': 'Eliminar presupuesto',
     },
     'aptjmof0': {
       'en':
-          'If you delete this budget, your transactions will no longer be associated with it.',
+          'If you delete this report, the coordinator will be able to see it.',
       'ar': 'إذا حذفت هذه الميزانية ، فلن تكون معاملاتك مرتبطة بها بعد الآن.',
       'de':
           'Wenn Sie dieses Budget löschen, sind Ihre Transaktionen nicht mehr damit verknüpft.',
@@ -1897,16 +1122,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
           'Si elimina este presupuesto, sus transacciones ya no estarán asociadas a él.',
     },
     '9l7pbjcj': {
-      'en': 'Delete Budget',
+      'en': 'Delete Report',
       'ar': 'حذف الميزانية',
       'de': 'Budget löschen',
       'es': 'Eliminar presupuesto',
-    },
-    'u0kr38at': {
-      'en': 'Tap above to remove this bude',
-      'ar': 'انقر فوق لإزالة هذا bude',
-      'de': 'Tippen Sie oben, um diese Bude zu entfernen',
-      'es': 'Toque arriba para eliminar este bude',
     },
     'b1xp801p': {
       'en': 'Home',
@@ -2030,6 +1249,21 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'مسكن',
       'de': 'Heim',
       'es': 'Casa',
+    },
+  },
+  // DateReport
+  {
+    'eemsm47r': {
+      'en': 'Date Report',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'svvwurbo': {
+      'en': 'Home',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
   },
   // bookAppointment

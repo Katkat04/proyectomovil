@@ -45,7 +45,6 @@ dependencies:
   firebase_storage: 11.6.8
   firebase_storage_platform_interface: 5.1.11
   firebase_storage_web: 3.7.2
-  fl_chart: 0.55.0
   flutter_animate: 4.1.1+1
   flutter_cache_manager: 3.3.1
   flutter_datetime_picker_plus: 2.0.1
@@ -85,7 +84,6 @@ dependencies:
   sign_in_with_apple: 4.3.0
   sign_in_with_apple_platform_interface: 1.0.0
   sign_in_with_apple_web: 1.0.1
-  smooth_page_indicator: 1.1.0
   sqflite: 2.2.6
   stream_transform: 2.1.0
   timeago: 3.2.2

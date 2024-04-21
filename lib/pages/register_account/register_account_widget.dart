@@ -481,9 +481,7 @@ class _RegisterAccountWidgetState extends State<RegisterAccountWidget> {
 
                                     await BudgetListRecord.collection
                                         .doc()
-                                        .set(createBudgetListRecordData(
-                                          budgetUser: currentUserReference,
-                                        ));
+                                        .set(createBudgetListRecordData());
 
                                     context.goNamedAuth(
                                         'completeProfile', context.mounted);

@@ -16,19 +16,19 @@ class BudgetListRecord extends FirestoreRecord {
     _initializeFields();
   }
 
-  // "budget" field.
-  List<String>? _budget;
-  List<String> get budget => _budget ?? const [];
-  bool hasBudget() => _budget != null;
+  // "reportUser" field.
+  List<DocumentReference>? _reportUser;
+  List<DocumentReference> get reportUser => _reportUser ?? const [];
+  bool hasReportUser() => _reportUser != null;
 
-  // "budgetUser" field.
-  DocumentReference? _budgetUser;
-  DocumentReference? get budgetUser => _budgetUser;
-  bool hasBudgetUser() => _budgetUser != null;
+  // "report" field.
+  List<String>? _report;
+  List<String> get report => _report ?? const [];
+  bool hasReport() => _report != null;
 
   void _initializeFields() {
-    _budget = getDataList(snapshotData['budget']);
-    _budgetUser = snapshotData['budgetUser'] as DocumentReference?;
+    _reportUser = getDataList(snapshotData['reportUser']);
+    _report = getDataList(snapshotData['report']);
   }
 
   static CollectionReference get collection =>
@@ -65,13 +65,9 @@ class BudgetListRecord extends FirestoreRecord {
       reference.path.hashCode == other.reference.path.hashCode;
 }
 
-Map<String, dynamic> createBudgetListRecordData({
-  DocumentReference? budgetUser,
-}) {
+Map<String, dynamic> createBudgetListRecordData() {
   final firestoreData = mapToFirestore(
-    <String, dynamic>{
-      'budgetUser': budgetUser,
-    }.withoutNulls,
+    <String, dynamic>{}.withoutNulls,
   );
 
   return firestoreData;
@@ -83,13 +79,13 @@ class BudgetListRecordDocumentEquality implements Equality<BudgetListRecord> {
   @override
   bool equals(BudgetListRecord? e1, BudgetListRecord? e2) {
     const listEquality = ListEquality();
-    return listEquality.equals(e1?.budget, e2?.budget) &&
-        e1?.budgetUser == e2?.budgetUser;
+    return listEquality.equals(e1?.reportUser, e2?.reportUser) &&
+        listEquality.equals(e1?.report, e2?.report);
   }
 
   @override
   int hash(BudgetListRecord? e) =>
-      const ListEquality().hash([e?.budget, e?.budgetUser]);
+      const ListEquality().hash([e?.reportUser, e?.report]);
 
   @override
   bool isValidKey(Object? o) => o is BudgetListRecord;

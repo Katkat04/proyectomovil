@@ -109,46 +109,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ForgotPasswordWidget(),
         ),
         FFRoute(
-          name: 'onboarding',
-          path: '/onboarding',
-          builder: (context, params) => OnboardingWidget(),
-        ),
-        FFRoute(
-          name: 'createBudgetBegin',
-          path: '/createBudgetBegin',
-          builder: (context, params) => CreateBudgetBeginWidget(),
-        ),
-        FFRoute(
-          name: 'MY_Card',
-          path: '/mYCard',
+          name: 'MY_Reports',
+          path: '/mYReports',
           builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'MY_Card')
-              : MYCardWidget(),
-        ),
-        FFRoute(
-          name: 'MY_Budgets',
-          path: '/mYBudgets',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'MY_Budgets')
-              : MYBudgetsWidget(),
-        ),
-        FFRoute(
-          name: 'paymentDetails',
-          path: '/paymentDetails',
-          builder: (context, params) => PaymentDetailsWidget(
-            transactionDetails: params.getParam(
-              'transactionDetails',
-              ParamType.DocumentReference,
-              false,
-              ['transactions'],
-            ),
-            userSpent: params.getParam(
-              'userSpent',
-              ParamType.DocumentReference,
-              false,
-              ['users'],
-            ),
-          ),
+              ? NavBarPage(initialPage: 'MY_Reports')
+              : MYReportsWidget(),
         ),
         FFRoute(
           name: 'MY_profilePage',
@@ -165,16 +130,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                 ),
         ),
         FFRoute(
-          name: 'budgetDetails',
-          path: '/budgetDetails',
-          builder: (context, params) => BudgetDetailsWidget(
-            budgetDetails: params.getParam(
-              'budgetDetails',
-              ParamType.DocumentReference,
-              false,
-              ['budgets'],
-            ),
-          ),
+          name: 'reportDetails',
+          path: '/reportDetails',
+          builder: (context, params) => ReportDetailsWidget(),
         ),
         FFRoute(
           name: 'transferComplete',
@@ -182,36 +140,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => TransferCompleteWidget(),
         ),
         FFRoute(
-          name: 'transferFunds',
-          path: '/transferFunds',
-          builder: (context, params) => TransferFundsWidget(),
+          name: 'AsignTask',
+          path: '/asignTask',
+          builder: (context, params) => AsignTaskWidget(),
         ),
         FFRoute(
-          name: 'requestFunds',
-          path: '/requestFunds',
-          builder: (context, params) => RequestFundsWidget(),
-        ),
-        FFRoute(
-          name: 'createBudget',
-          path: '/createBudget',
-          builder: (context, params) => CreateBudgetWidget(),
-        ),
-        FFRoute(
-          name: 'transaction_ADD',
-          path: '/transactionADD',
-          builder: (context, params) => TransactionADDWidget(),
-        ),
-        FFRoute(
-          name: 'transaction_EDIT',
-          path: '/transactionEDIT',
-          builder: (context, params) => TransactionEDITWidget(
-            transactionDetails: params.getParam(
-              'transactionDetails',
-              ParamType.DocumentReference,
-              false,
-              ['transactions'],
-            ),
-          ),
+          name: 'createReportsUS',
+          path: '/createReportsUS',
+          builder: (context, params) => CreateReportsUSWidget(),
         ),
         FFRoute(
           name: 'editProfile',
@@ -236,16 +172,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => NotificationsSettingsWidget(),
         ),
         FFRoute(
-          name: 'privacyPolicy',
-          path: '/privacyPolicy',
-          builder: (context, params) => PrivacyPolicyWidget(),
-        ),
-        FFRoute(
-          name: 'tutorial_PROFILE',
-          path: '/tutorialPROFILE',
-          builder: (context, params) => TutorialPROFILEWidget(),
-        ),
-        FFRoute(
           name: 'homePage_UC',
           path: '/homePageUC',
           builder: (context, params) => HomePageUCWidget(),
@@ -256,21 +182,19 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => HomePageUSWidget(),
         ),
         FFRoute(
-          name: 'budget_DELETE',
-          path: '/budgetDELETE',
-          builder: (context, params) => BudgetDELETEWidget(
-            budgetList: params.getParam(
-              'budgetList',
-              ParamType.DocumentReference,
-              false,
-              ['budgets'],
-            ),
-          ),
+          name: 'Report_DELETE',
+          path: '/reportDELETE',
+          builder: (context, params) => ReportDELETEWidget(),
         ),
         FFRoute(
           name: 'profilepage',
           path: '/profilepage',
           builder: (context, params) => ProfilepageWidget(),
+        ),
+        FFRoute(
+          name: 'DateReport',
+          path: '/dateReport',
+          builder: (context, params) => DateReportWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

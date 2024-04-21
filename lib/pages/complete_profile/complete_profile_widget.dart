@@ -176,33 +176,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
           ),
         ],
       ),
-      'buttonOnPageLoadAnimation1': AnimationInfo(
-        trigger: AnimationTrigger.onPageLoad,
-        effectsBuilder: () => [
-          FadeEffect(
-            curve: Curves.bounceOut,
-            delay: 400.0.ms,
-            duration: 600.0.ms,
-            begin: 0.0,
-            end: 1.0,
-          ),
-          MoveEffect(
-            curve: Curves.bounceOut,
-            delay: 400.0.ms,
-            duration: 600.0.ms,
-            begin: Offset(0.0, 40.0),
-            end: Offset(0.0, 0.0),
-          ),
-          ScaleEffect(
-            curve: Curves.bounceOut,
-            delay: 400.0.ms,
-            duration: 600.0.ms,
-            begin: Offset(1.0, 0.0),
-            end: Offset(1.0, 1.0),
-          ),
-        ],
-      ),
-      'buttonOnPageLoadAnimation2': AnimationInfo(
+      'buttonOnPageLoadAnimation': AnimationInfo(
         trigger: AnimationTrigger.onPageLoad,
         effectsBuilder: () => [
           FadeEffect(
@@ -607,7 +581,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                             photoUrl: '',
                           ));
 
-                          context.pushNamed('onboarding');
+                          context.pushNamed('loginPage');
                         },
                         text: FFLocalizations.of(context).getText(
                           'hbhd3bdt' /* Complete Profile */,
@@ -635,61 +609,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ).animateOnPageLoad(
-                          animationsMap['buttonOnPageLoadAnimation1']!);
-                    },
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
-                  child: StreamBuilder<UsersRecord>(
-                    stream: UsersRecord.getDocument(currentUserReference!),
-                    builder: (context, snapshot) {
-                      // Customize what your widget looks like when it's loading.
-                      if (!snapshot.hasData) {
-                        return Center(
-                          child: SizedBox(
-                            width: 40.0,
-                            height: 40.0,
-                            child: SpinKitPumpingHeart(
-                              color: FlutterFlowTheme.of(context).primary,
-                              size: 40.0,
-                            ),
-                          ),
-                        );
-                      }
-                      final buttonLoginUsersRecord = snapshot.data!;
-                      return FFButtonWidget(
-                        onPressed: () async {
-                          context.pushNamed('onboarding');
-                        },
-                        text: FFLocalizations.of(context).getText(
-                          'w75dikic' /* Skip for Now */,
-                        ),
-                        options: FFButtonOptions(
-                          width: 140.0,
-                          height: 50.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color:
-                              FlutterFlowTheme.of(context).secondaryBackground,
-                          textStyle: FlutterFlowTheme.of(context)
-                              .titleSmall
-                              .override(
-                                fontFamily: 'Lexend',
-                                color: FlutterFlowTheme.of(context).primaryText,
-                                letterSpacing: 0.0,
-                              ),
-                          elevation: 0.0,
-                          borderSide: BorderSide(
-                            color: Colors.transparent,
-                            width: 1.0,
-                          ),
-                          borderRadius: BorderRadius.circular(30.0),
-                        ),
-                      ).animateOnPageLoad(
-                          animationsMap['buttonOnPageLoadAnimation2']!);
+                          animationsMap['buttonOnPageLoadAnimation']!);
                     },
                   ),
                 ),
