@@ -1,15 +1,13 @@
-import '/auth/firebase_auth/auth_util.dart';
-import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'home_page_u_s_widget.dart' show HomePageUSWidget;
+import 'task_complete_widget.dart' show TaskCompleteWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-class HomePageUSModel extends FlutterFlowModel<HomePageUSWidget> {
+class TaskCompleteModel extends FlutterFlowModel<TaskCompleteWidget> {
   @override
   void initState(BuildContext context) {}
 

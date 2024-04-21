@@ -28,8 +28,11 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
     super.initState();
     _model = createModel(context, () => AsignTaskModel());
 
-    _model.textController ??= TextEditingController();
-    _model.textFieldFocusNode ??= FocusNode();
+    _model.textController1 ??= TextEditingController();
+    _model.textFieldFocusNode1 ??= FocusNode();
+
+    _model.textController2 ??= TextEditingController();
+    _model.textFieldFocusNode2 ??= FocusNode();
   }
 
   @override
@@ -112,6 +115,75 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                         ),
                       ],
                     ),
+                    Row(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Expanded(
+                          child: TextFormField(
+                            controller: _model.textController1,
+                            focusNode: _model.textFieldFocusNode1,
+                            autofocus: true,
+                            obscureText: false,
+                            decoration: InputDecoration(
+                              labelText: FFLocalizations.of(context).getText(
+                                'ejxtqu0l' /* User here... */,
+                              ),
+                              labelStyle: FlutterFlowTheme.of(context)
+                                  .labelMedium
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    fontSize: 14.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                              hintStyle: FlutterFlowTheme.of(context)
+                                  .labelMedium
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    letterSpacing: 0.0,
+                                    lineHeight: 2.0,
+                                  ),
+                              enabledBorder: OutlineInputBorder(
+                                borderSide: BorderSide(
+                                  color: FlutterFlowTheme.of(context).alternate,
+                                  width: 2.0,
+                                ),
+                                borderRadius: BorderRadius.circular(8.0),
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: BorderSide(
+                                  color: FlutterFlowTheme.of(context).primary,
+                                  width: 2.0,
+                                ),
+                                borderRadius: BorderRadius.circular(8.0),
+                              ),
+                              errorBorder: OutlineInputBorder(
+                                borderSide: BorderSide(
+                                  color: FlutterFlowTheme.of(context).error,
+                                  width: 2.0,
+                                ),
+                                borderRadius: BorderRadius.circular(8.0),
+                              ),
+                              focusedErrorBorder: OutlineInputBorder(
+                                borderSide: BorderSide(
+                                  color: FlutterFlowTheme.of(context).error,
+                                  width: 2.0,
+                                ),
+                                borderRadius: BorderRadius.circular(8.0),
+                              ),
+                            ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  fontFamily: 'Lexend',
+                                  fontSize: 14.0,
+                                  letterSpacing: 0.0,
+                                ),
+                            validator: _model.textController1Validator
+                                .asValidator(context),
+                          ),
+                        ),
+                      ],
+                    ),
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
@@ -120,13 +192,10 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                             FormFieldController<String>(null),
                         options: [
                           FFLocalizations.of(context).getText(
-                            'wwjahvpl' /* Office Budget */,
+                            'jkgldj5q' /* Very fast */,
                           ),
                           FFLocalizations.of(context).getText(
-                            'sx0vvzxd' /* External Transfer */,
-                          ),
-                          FFLocalizations.of(context).getText(
-                            'ai453kej' /* ACH Payment */,
+                            'ijde52hi' /* Not so fast */,
                           )
                         ],
                         onChanged: (val) =>
@@ -139,7 +208,7 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                                   letterSpacing: 0.0,
                                 ),
                         hintText: FFLocalizations.of(context).getText(
-                          'wo9cebk7' /* Select Transfer */,
+                          'wo9cebk7' /* Select priotity */,
                         ),
                         icon: Icon(
                           Icons.keyboard_arrow_down_rounded,
@@ -163,8 +232,8 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                       child: TextFormField(
-                        controller: _model.textController,
-                        focusNode: _model.textFieldFocusNode,
+                        controller: _model.textController2,
+                        focusNode: _model.textFieldFocusNode2,
                         obscureText: false,
                         decoration: InputDecoration(
                           labelStyle:
@@ -173,7 +242,7 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                                     letterSpacing: 0.0,
                                   ),
                           hintText: FFLocalizations.of(context).getText(
-                            'rcevwwju' /* Reason */,
+                            'rcevwwju' /* Description */,
                           ),
                           hintStyle:
                               FlutterFlowTheme.of(context).bodyMedium.override(
@@ -217,8 +286,8 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                             ),
                         textAlign: TextAlign.start,
                         maxLines: 4,
-                        validator:
-                            _model.textControllerValidator.asValidator(context),
+                        validator: _model.textController2Validator
+                            .asValidator(context),
                       ),
                     ),
                   ],
@@ -238,7 +307,7 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                     FFButtonWidget(
                       onPressed: () async {
                         context.pushNamed(
-                          'transferComplete',
+                          'taskComplete',
                           extra: <String, dynamic>{
                             kTransitionInfoKey: TransitionInfo(
                               hasTransition: true,
@@ -249,7 +318,7 @@ class _AsignTaskWidgetState extends State<AsignTaskWidget> {
                         );
                       },
                       text: FFLocalizations.of(context).getText(
-                        'uvrt7im0' /* Request Funds */,
+                        'uvrt7im0' /* Send Task */,
                       ),
                       options: FFButtonOptions(
                         width: 300.0,

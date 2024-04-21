@@ -150,135 +150,146 @@ class _MYReportsWidgetState extends State<MYReportsWidget>
                             ),
                             child: Padding(
                               padding: EdgeInsets.all(12.0),
-                              child: Column(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 0.0, 0.0, 4.0),
-                                    child: Row(
-                                      mainAxisSize: MainAxisSize.max,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        Text(
-                                          FFLocalizations.of(context).getText(
-                                            '9il8u06k' /* Report */,
+                              child: InkWell(
+                                splashColor: Colors.transparent,
+                                focusColor: Colors.transparent,
+                                hoverColor: Colors.transparent,
+                                highlightColor: Colors.transparent,
+                                onTap: () async {
+                                  context.pushNamed('reportDetails');
+                                },
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          0.0, 0.0, 0.0, 4.0),
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text(
+                                            FFLocalizations.of(context).getText(
+                                              '9il8u06k' /* Report */,
+                                            ),
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodySmall
+                                                .override(
+                                                  fontFamily: 'Lexend',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .alternate,
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodySmall
-                                              .override(
-                                                fontFamily: 'Lexend',
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .alternate,
-                                                letterSpacing: 0.0,
-                                              ),
-                                        ),
-                                        InkWell(
-                                          splashColor: Colors.transparent,
-                                          focusColor: Colors.transparent,
-                                          hoverColor: Colors.transparent,
-                                          highlightColor: Colors.transparent,
-                                          onTap: () async {
-                                            context.pushNamed('reportDetails');
-                                          },
-                                          child: Icon(
-                                            Icons.arrow_forward_ios_rounded,
+                                          InkWell(
+                                            splashColor: Colors.transparent,
+                                            focusColor: Colors.transparent,
+                                            hoverColor: Colors.transparent,
+                                            highlightColor: Colors.transparent,
+                                            onTap: () async {
+                                              context
+                                                  .pushNamed('reportDetails');
+                                            },
+                                            child: Icon(
+                                              Icons.arrow_forward_ios_rounded,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .textColor,
+                                              size: 16.0,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    Text(
+                                      FFLocalizations.of(context).getText(
+                                        'yvhhudxi' /* Solving wifi */,
+                                      ),
+                                      style: FlutterFlowTheme.of(context)
+                                          .displaySmall
+                                          .override(
+                                            fontFamily: 'Lexend',
                                             color: FlutterFlowTheme.of(context)
                                                 .textColor,
-                                            size: 16.0,
+                                            letterSpacing: 0.0,
                                           ),
-                                        ),
-                                      ],
                                     ),
-                                  ),
-                                  Text(
-                                    FFLocalizations.of(context).getText(
-                                      'yvhhudxi' /* Solving wifi */,
-                                    ),
-                                    style: FlutterFlowTheme.of(context)
-                                        .displaySmall
-                                        .override(
-                                          fontFamily: 'Lexend',
-                                          color: FlutterFlowTheme.of(context)
-                                              .textColor,
-                                          letterSpacing: 0.0,
-                                        ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 4.0, 0.0, 0.0),
-                                    child: Row(
-                                      mainAxisSize: MainAxisSize.max,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        Text(
-                                          FFLocalizations.of(context).getText(
-                                            'okyphbdu' /* 5 hours working */,
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          0.0, 4.0, 0.0, 0.0),
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text(
+                                            FFLocalizations.of(context).getText(
+                                              'okyphbdu' /* 5 hours working */,
+                                            ),
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodySmall
+                                                .override(
+                                                  fontFamily: 'Lexend',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .alternate,
+                                                  letterSpacing: 0.0,
+                                                ),
                                           ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodySmall
-                                              .override(
-                                                fontFamily: 'Lexend',
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .alternate,
-                                                letterSpacing: 0.0,
+                                          Row(
+                                            mainAxisSize: MainAxisSize.max,
+                                            children: [
+                                              Padding(
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        0.0, 0.0, 4.0, 0.0),
+                                                child: Text(
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'c81i1ybg' /* Total Spent */,
+                                                  ),
+                                                  textAlign: TextAlign.end,
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodySmall
+                                                      .override(
+                                                        fontFamily: 'Lexend',
+                                                        color:
+                                                            Color(0xB3FFFFFF),
+                                                        letterSpacing: 0.0,
+                                                        fontWeight:
+                                                            FontWeight.w300,
+                                                      ),
+                                                ),
                                               ),
-                                        ),
-                                        Row(
-                                          mainAxisSize: MainAxisSize.max,
-                                          children: [
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(0.0, 0.0, 4.0, 0.0),
-                                              child: Text(
+                                              Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'c81i1ybg' /* Total Spent */,
+                                                  'rrbwd2z6' /* $2,502 */,
                                                 ),
                                                 textAlign: TextAlign.end,
                                                 style:
                                                     FlutterFlowTheme.of(context)
-                                                        .bodySmall
+                                                        .headlineSmall
                                                         .override(
                                                           fontFamily: 'Lexend',
-                                                          color:
-                                                              Color(0xB3FFFFFF),
+                                                          color: FlutterFlowTheme
+                                                                  .of(context)
+                                                              .textColor,
                                                           letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w300,
                                                         ),
                                               ),
-                                            ),
-                                            Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'rrbwd2z6' /* $2,502 */,
-                                              ),
-                                              textAlign: TextAlign.end,
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineSmall
-                                                      .override(
-                                                        fontFamily: 'Lexend',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .textColor,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
+                                            ],
+                                          ),
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                             ),
                           ),
@@ -310,7 +321,7 @@ class _MYReportsWidgetState extends State<MYReportsWidget>
                                     children: [
                                       Text(
                                         FFLocalizations.of(context).getText(
-                                          'ah4t7cpx' /* Advertising Budget */,
+                                          'ah4t7cpx' /* Report */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
@@ -330,7 +341,7 @@ class _MYReportsWidgetState extends State<MYReportsWidget>
                                 ),
                                 Text(
                                   FFLocalizations.of(context).getText(
-                                    '0tsohlub' /* $3,000 */,
+                                    '0tsohlub' /* Bla bla bla  */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .displaySmall
@@ -430,7 +441,7 @@ class _MYReportsWidgetState extends State<MYReportsWidget>
                                     children: [
                                       Text(
                                         FFLocalizations.of(context).getText(
-                                          'fn6kvat8' /* Advertising Budget */,
+                                          'fn6kvat8' /* Report 45 */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodySmall
@@ -450,7 +461,7 @@ class _MYReportsWidgetState extends State<MYReportsWidget>
                                 ),
                                 Text(
                                   FFLocalizations.of(context).getText(
-                                    '6uht91yb' /* $3,000 */,
+                                    '6uht91yb' /* PC DJKSJDS */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .displaySmall

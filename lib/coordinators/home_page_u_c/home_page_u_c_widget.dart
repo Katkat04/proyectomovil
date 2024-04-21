@@ -125,6 +125,8 @@ class _HomePageUCWidgetState extends State<HomePageUCWidget> {
                                           .headlineSmall
                                           .override(
                                             fontFamily: 'Lexend',
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondary,
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -154,6 +156,8 @@ class _HomePageUCWidgetState extends State<HomePageUCWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Lexend',
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondary,
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -171,12 +175,13 @@ class _HomePageUCWidgetState extends State<HomePageUCWidget> {
                         children: [
                           Text(
                             FFLocalizations.of(context).getText(
-                              '6z1sm34j' /* Total Balance */,
+                              '6z1sm34j' /* Total teams on charge */,
                             ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   fontFamily: 'Lexend',
+                                  color: FlutterFlowTheme.of(context).secondary,
                                   letterSpacing: 0.0,
                                 ),
                           ),
@@ -191,190 +196,18 @@ class _HomePageUCWidgetState extends State<HomePageUCWidget> {
                         children: [
                           Text(
                             FFLocalizations.of(context).getText(
-                              'c0dls4u5' /* $25,202 */,
+                              'c0dls4u5' /* 20 */,
                             ),
                             style: FlutterFlowTheme.of(context)
                                 .displaySmall
                                 .override(
                                   fontFamily: 'Lexend',
+                                  color: FlutterFlowTheme.of(context).primary,
                                   fontSize: 32.0,
                                   letterSpacing: 0.0,
                                 ),
                           ),
                         ],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Container(
-                      width: MediaQuery.sizeOf(context).width * 0.44,
-                      decoration: BoxDecoration(
-                        color: FlutterFlowTheme.of(context).tertiary,
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      child: Padding(
-                        padding: EdgeInsets.all(12.0),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              FFLocalizations.of(context).getText(
-                                '30yef7fj' /* Payroll Due */,
-                              ),
-                              style: FlutterFlowTheme.of(context)
-                                  .bodySmall
-                                  .override(
-                                    fontFamily: 'Lexend',
-                                    letterSpacing: 0.0,
-                                  ),
-                            ),
-                            Text(
-                              FFLocalizations.of(context).getText(
-                                'zrx9e6tv' /* $12,245 */,
-                              ),
-                              style: FlutterFlowTheme.of(context)
-                                  .displaySmall
-                                  .override(
-                                    fontFamily: 'Lexend',
-                                    letterSpacing: 0.0,
-                                  ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 4.0, 0.0, 0.0),
-                              child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '1cjqanzg' /* Debit Date */,
-                                ),
-                                style: GoogleFonts.getFont(
-                                  'Lexend Deca',
-                                  color: Color(0xB4FFFFFF),
-                                  fontSize: 12.0,
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 4.0, 0.0, 0.0),
-                              child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '726vrs60' /* Aug 31, 2021 */,
-                                ),
-                                style: FlutterFlowTheme.of(context)
-                                    .headlineSmall
-                                    .override(
-                                      fontFamily: 'Lexend',
-                                      letterSpacing: 0.0,
-                                    ),
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 4.0, 0.0, 0.0),
-                              child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '4dgbx46t' /* 4 Days Left */,
-                                ),
-                                style: GoogleFonts.getFont(
-                                  'Lexend Deca',
-                                  color: FlutterFlowTheme.of(context).textColor,
-                                  fontSize: 12.0,
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                    Container(
-                      width: MediaQuery.sizeOf(context).width * 0.44,
-                      decoration: BoxDecoration(
-                        color: FlutterFlowTheme.of(context).primary,
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      child: Padding(
-                        padding: EdgeInsets.all(12.0),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              FFLocalizations.of(context).getText(
-                                'n87v5tth' /* Marketing Budget */,
-                              ),
-                              style: FlutterFlowTheme.of(context)
-                                  .bodySmall
-                                  .override(
-                                    fontFamily: 'Lexend',
-                                    letterSpacing: 0.0,
-                                  ),
-                            ),
-                            Text(
-                              FFLocalizations.of(context).getText(
-                                'l5pw5c8c' /* $4,000 */,
-                              ),
-                              style: FlutterFlowTheme.of(context)
-                                  .displaySmall
-                                  .override(
-                                    fontFamily: 'Lexend',
-                                    letterSpacing: 0.0,
-                                  ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 4.0, 0.0, 0.0),
-                              child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '7i0a44qa' /* Total Spent */,
-                                ),
-                                style: GoogleFonts.getFont(
-                                  'Lexend Deca',
-                                  color: Color(0xB4FFFFFF),
-                                  fontSize: 12.0,
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 4.0, 0.0, 0.0),
-                              child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '9a2ya1la' /* $3,402 */,
-                                ),
-                                style: FlutterFlowTheme.of(context)
-                                    .headlineSmall
-                                    .override(
-                                      fontFamily: 'Lexend',
-                                      letterSpacing: 0.0,
-                                    ),
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 4.0, 0.0, 0.0),
-                              child: Text(
-                                FFLocalizations.of(context).getText(
-                                  'n1o498d9' /* 4 Days Left */,
-                                ),
-                                style: GoogleFonts.getFont(
-                                  'Lexend Deca',
-                                  color: FlutterFlowTheme.of(context).textColor,
-                                  fontSize: 12.0,
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
                       ),
                     ),
                   ],
@@ -417,6 +250,8 @@ class _HomePageUCWidgetState extends State<HomePageUCWidget> {
                                     .bodyMedium
                                     .override(
                                       fontFamily: 'Lexend',
+                                      color: FlutterFlowTheme.of(context)
+                                          .secondary,
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -429,136 +264,107 @@ class _HomePageUCWidgetState extends State<HomePageUCWidget> {
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Container(
-                                width: MediaQuery.sizeOf(context).width * 0.24,
-                                decoration: BoxDecoration(
-                                  color:
-                                      FlutterFlowTheme.of(context).background,
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
+                              Expanded(
                                 child: Padding(
-                                  padding: EdgeInsets.all(12.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 12.0),
-                                        child: Icon(
-                                          Icons.account_balance_outlined,
-                                          color: FlutterFlowTheme.of(context)
-                                              .textColor,
-                                          size: 36.0,
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 4.0, 0.0, 0.0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            '774itrkn' /* My Bank */,
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 0.0, 5.0, 0.0),
+                                  child: Container(
+                                    width:
+                                        MediaQuery.sizeOf(context).width * 0.24,
+                                    decoration: BoxDecoration(
+                                      color: FlutterFlowTheme.of(context)
+                                          .background,
+                                      borderRadius: BorderRadius.circular(8.0),
+                                    ),
+                                    child: Padding(
+                                      padding: EdgeInsets.all(12.0),
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 0.0, 12.0),
+                                            child: Icon(
+                                              Icons.admin_panel_settings_sharp,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .textColor,
+                                              size: 36.0,
+                                            ),
                                           ),
-                                          textAlign: TextAlign.center,
-                                          style: GoogleFonts.getFont(
-                                            'Lexend Deca',
-                                            color: FlutterFlowTheme.of(context)
-                                                .textColor,
-                                            fontSize: 12.0,
+                                          Text(
+                                            FFLocalizations.of(context).getText(
+                                              'xs2as0vf' /* Manage Personal */,
+                                            ),
+                                            textAlign: TextAlign.center,
+                                            style: GoogleFonts.getFont(
+                                              'Lexend Deca',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .textColor,
+                                              fontSize: 12.0,
+                                            ),
                                           ),
-                                        ),
+                                        ],
                                       ),
-                                    ],
+                                    ),
                                   ),
                                 ),
                               ),
-                              Container(
-                                width: MediaQuery.sizeOf(context).width * 0.24,
-                                decoration: BoxDecoration(
-                                  color:
-                                      FlutterFlowTheme.of(context).background,
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
+                              Expanded(
                                 child: Padding(
-                                  padding: EdgeInsets.all(12.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 12.0),
-                                        child: Icon(
-                                          Icons.swap_horiz_outlined,
-                                          color: FlutterFlowTheme.of(context)
-                                              .textColor,
-                                          size: 36.0,
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 4.0, 0.0, 0.0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'xs2as0vf' /* Transfer */,
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      5.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width:
+                                        MediaQuery.sizeOf(context).width * 0.24,
+                                    decoration: BoxDecoration(
+                                      color: FlutterFlowTheme.of(context)
+                                          .background,
+                                      borderRadius: BorderRadius.circular(8.0),
+                                    ),
+                                    child: Padding(
+                                      padding: EdgeInsets.all(12.0),
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 0.0, 12.0),
+                                            child: Icon(
+                                              Icons.stacked_line_chart_rounded,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .textColor,
+                                              size: 36.0,
+                                            ),
                                           ),
-                                          style: GoogleFonts.getFont(
-                                            'Lexend Deca',
-                                            color: FlutterFlowTheme.of(context)
-                                                .textColor,
-                                            fontSize: 12.0,
+                                          Text(
+                                            FFLocalizations.of(context).getText(
+                                              'g8yaaa7f' /* Rate Reports */,
+                                            ),
+                                            textAlign: TextAlign.center,
+                                            style: GoogleFonts.getFont(
+                                              'Lexend Deca',
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .textColor,
+                                              fontSize: 12.0,
+                                            ),
                                           ),
-                                        ),
+                                        ],
                                       ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                width: MediaQuery.sizeOf(context).width * 0.24,
-                                decoration: BoxDecoration(
-                                  color:
-                                      FlutterFlowTheme.of(context).background,
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsets.all(12.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 12.0),
-                                        child: Icon(
-                                          Icons.stacked_line_chart_rounded,
-                                          color: FlutterFlowTheme.of(context)
-                                              .textColor,
-                                          size: 36.0,
-                                        ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 4.0, 0.0, 0.0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'g8yaaa7f' /* Activity */,
-                                          ),
-                                          style: GoogleFonts.getFont(
-                                            'Lexend Deca',
-                                            color: FlutterFlowTheme.of(context)
-                                                .textColor,
-                                            fontSize: 12.0,
-                                          ),
-                                        ),
-                                      ),
-                                    ],
+                                    ),
                                   ),
                                 ),
                               ),
@@ -639,7 +445,7 @@ class _HomePageUCWidgetState extends State<HomePageUCWidget> {
                                   0.0, 4.0, 0.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'pnvkw3b7' /* We noticed a small charge that... */,
+                                  'pnvkw3b7' /* We have recieve a new task com... */,
                                 ),
                                 style: GoogleFonts.getFont(
                                   'Lexend Deca',

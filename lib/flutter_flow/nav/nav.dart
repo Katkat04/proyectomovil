@@ -135,9 +135,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ReportDetailsWidget(),
         ),
         FFRoute(
-          name: 'transferComplete',
-          path: '/transferComplete',
-          builder: (context, params) => TransferCompleteWidget(),
+          name: 'taskComplete',
+          path: '/taskComplete',
+          builder: (context, params) => TaskCompleteWidget(),
         ),
         FFRoute(
           name: 'AsignTask',
@@ -167,11 +167,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ChangePasswordWidget(),
         ),
         FFRoute(
-          name: 'notificationsSettings',
-          path: '/notificationsSettings',
-          builder: (context, params) => NotificationsSettingsWidget(),
-        ),
-        FFRoute(
           name: 'homePage_UC',
           path: '/homePageUC',
           builder: (context, params) => HomePageUCWidget(),
@@ -187,14 +182,29 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ReportDELETEWidget(),
         ),
         FFRoute(
-          name: 'profilepage',
-          path: '/profilepage',
-          builder: (context, params) => ProfilepageWidget(),
+          name: 'AdminUS',
+          path: '/adminUS',
+          builder: (context, params) => AdminUSWidget(),
         ),
         FFRoute(
-          name: 'DateReport',
-          path: '/dateReport',
-          builder: (context, params) => DateReportWidget(),
+          name: 'AdminSupportUser',
+          path: '/adminSupportUser',
+          builder: (context, params) => AdminSupportUserWidget(),
+        ),
+        FFRoute(
+          name: 'SearchSupportUser',
+          path: '/searchSupportUser',
+          builder: (context, params) => SearchSupportUserWidget(),
+        ),
+        FFRoute(
+          name: 'AdminClientUser',
+          path: '/adminClientUser',
+          builder: (context, params) => AdminClientUserWidget(),
+        ),
+        FFRoute(
+          name: 'SearchClientUser',
+          path: '/searchClientUser',
+          builder: (context, params) => SearchClientUserWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

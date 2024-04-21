@@ -4,6 +4,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -153,6 +154,21 @@ class _HomePageUSWidgetState extends State<HomePageUSWidget> {
                                     ),
                               ),
                             ),
+                            RatingBar.builder(
+                              onRatingUpdate: (newValue) => setState(
+                                  () => _model.ratingBarValue = newValue),
+                              itemBuilder: (context, index) => Icon(
+                                Icons.star_rounded,
+                                color: FlutterFlowTheme.of(context).tertiary,
+                              ),
+                              direction: Axis.horizontal,
+                              initialRating: _model.ratingBarValue ??= 3.0,
+                              unratedColor:
+                                  FlutterFlowTheme.of(context).accent3,
+                              itemCount: 5,
+                              itemSize: 20.0,
+                              glowColor: FlutterFlowTheme.of(context).tertiary,
+                            ),
                           ],
                         ),
                       ),
@@ -182,7 +198,7 @@ class _HomePageUSWidgetState extends State<HomePageUSWidget> {
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            context.pushNamed('profilepage');
+                            context.pushNamed('AdminUS');
                           },
                           child: Row(
                             mainAxisSize: MainAxisSize.max,

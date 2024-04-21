@@ -432,13 +432,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '',
     },
     'ah4t7cpx': {
-      'en': 'Advertising Budget',
+      'en': 'Report',
       'ar': 'ميزانية الإعلان',
       'de': 'Werbebudget',
       'es': 'Presupuesto publicitario',
     },
     '0tsohlub': {
-      'en': '\$3,000',
+      'en': 'Bla bla bla ',
       'ar': '3000 دولار',
       'de': '3.000 \$',
       'es': '\$3,000',
@@ -462,13 +462,13 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': '\$2,502',
     },
     'fn6kvat8': {
-      'en': 'Advertising Budget',
+      'en': 'Report 45',
       'ar': 'ميزانية الإعلان',
       'de': 'Werbebudget',
       'es': 'Presupuesto publicitario',
     },
     '6uht91yb': {
-      'en': '\$3,000',
+      'en': 'PC DJKSJDS',
       'ar': '3000 دولار',
       'de': '3.000 \$',
       'es': '\$3,000',
@@ -517,12 +517,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'تغيير كلمة المرور',
       'de': 'Kennwort ändern',
       'es': 'Cambia la contraseña',
-    },
-    '6w6wv95p': {
-      'en': 'Notification Settings',
-      'ar': 'إعدادات الإشعار',
-      'de': 'Benachrichtigungseinstellungen',
-      'es': 'Configuración de las notificaciones',
     },
     '2ll42t1u': {
       'en': 'Dark Mode',
@@ -576,7 +570,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // transferComplete
+  // taskComplete
   {
     'xf8d4sm8': {
       'en': 'Task Complete',
@@ -614,38 +608,38 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': 'Geld anfordern',
       'es': 'Pedír fondos',
     },
-    'wwjahvpl': {
-      'en': 'Office Budget',
-      'ar': 'ميزانية المكتب',
-      'de': 'Bürobudget',
-      'es': 'Presupuesto de oficina',
+    'ejxtqu0l': {
+      'en': 'User here...',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
-    'sx0vvzxd': {
-      'en': 'External Transfer',
-      'ar': 'التحويل الخارجي',
-      'de': 'Externe Übertragung',
-      'es': 'Transferencia externa',
+    'jkgldj5q': {
+      'en': 'Very fast',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
-    'ai453kej': {
-      'en': 'ACH Payment',
-      'ar': 'دفع ACH',
-      'de': 'ACH-Zahlung',
-      'es': 'Pago CCA',
+    'ijde52hi': {
+      'en': 'Not so fast',
+      'ar': '',
+      'de': '',
+      'es': '',
     },
     'wo9cebk7': {
-      'en': 'Select Transfer',
+      'en': 'Select priotity',
       'ar': '',
       'de': '',
       'es': '',
     },
     'rcevwwju': {
-      'en': 'Reason',
+      'en': 'Description',
       'ar': 'سبب',
       'de': 'Grund',
       'es': 'Razón',
     },
     'uvrt7im0': {
-      'en': 'Request Funds',
+      'en': 'Send Task',
       'ar': 'طلب التمويل',
       'de': 'Geld anfordern',
       'es': 'Pedír fondos',
@@ -826,83 +820,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // notificationsSettings
-  {
-    'sc4ff4ce': {
-      'en': 'Notifications',
-      'ar': 'إشعارات',
-      'de': 'Benachrichtigungen',
-      'es': 'Notificaciones',
-    },
-    'r72zvrv5': {
-      'en':
-          'Choose what notifcations you want to recieve below and we will update the settings.',
-      'ar': 'اختر الإشعارات التي تريد تلقيها أدناه وسنقوم بتحديث الإعدادات.',
-      'de':
-          'Wählen Sie unten aus, welche Benachrichtigungen Sie erhalten möchten, und wir aktualisieren die Einstellungen.',
-      'es':
-          'Elija qué notificaciones desea recibir a continuación y actualizaremos la configuración.',
-    },
-    'gjygkr0n': {
-      'en': 'Push Notifications',
-      'ar': 'دفع الإخطارات',
-      'de': 'Mitteilungen',
-      'es': 'Notificaciones push',
-    },
-    '3y3yhxbk': {
-      'en':
-          'Receive Push notifications from our application on a semi regular basis.',
-      'ar': 'تلقي إشعارات من تطبيقنا على أساس شبه منتظم.',
-      'de':
-          'Erhalten Sie regelmäßig Push-Benachrichtigungen von unserer Anwendung.',
-      'es':
-          'Reciba notificaciones Push de nuestra aplicación de forma semi regular.',
-    },
-    '1ytebj35': {
-      'en': 'Email Notifications',
-      'ar': 'اشعارات البريد الالكتروني',
-      'de': 'E-Mail Benachrichtigungen',
-      'es': 'Notificaciónes de Correo Electrónico',
-    },
-    '9lvh5nst': {
-      'en':
-          'Receive email notifications from our marketing team about new features.',
-      'ar':
-          'تلقي إشعارات البريد الإلكتروني من فريق التسويق لدينا حول الميزات الجديدة.',
-      'de':
-          'Erhalten Sie E-Mail-Benachrichtigungen von unserem Marketingteam über neue Funktionen.',
-      'es':
-          'Reciba notificaciones por correo electrónico de nuestro equipo de marketing sobre nuevas funciones.',
-    },
-    '69d2j74u': {
-      'en': 'Location Services',
-      'ar': 'خدمات الموقع',
-      'de': 'Standortdienste',
-      'es': 'Servicios de localización',
-    },
-    '3k8cuv0d': {
-      'en':
-          'Allow us to track your location, this helps keep track of spending and keeps you safe.',
-      'ar':
-          'اسمح لنا بتتبع موقعك ، فهذا يساعد على تتبع الإنفاق ويحافظ على سلامتك.',
-      'de':
-          'Erlauben Sie uns, Ihren Standort zu verfolgen, dies hilft, die Ausgaben im Auge zu behalten und schützt Sie.',
-      'es':
-          'Permítanos rastrear su ubicación, esto ayuda a realizar un seguimiento de los gastos y lo mantiene seguro.',
-    },
-    'isgrgbfs': {
-      'en': 'Save Changes',
-      'ar': 'حفظ التغييرات',
-      'de': 'Änderungen speichern',
-      'es': 'Guardar cambios',
-    },
-    'a96mlyeh': {
-      'en': 'Home',
-      'ar': 'مسكن',
-      'de': 'Heim',
-      'es': 'Casa',
-    },
-  },
   // homePage_UC
   {
     'ucqlrrlk': {
@@ -918,76 +835,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Los detalles de su cuenta se encuentran a continuación.',
     },
     '6z1sm34j': {
-      'en': 'Total Balance',
+      'en': 'Total teams on charge',
       'ar': 'إجمالي الرصيد',
       'de': 'Gesamtsaldo',
       'es': 'Balance total',
     },
     'c0dls4u5': {
-      'en': '\$25,202',
+      'en': '20',
       'ar': '25202 دولار',
       'de': '25.202 \$',
       'es': '\$25,202',
-    },
-    '30yef7fj': {
-      'en': 'Payroll Due',
-      'ar': 'الرواتب المستحقة',
-      'de': 'Gehaltsabrechnung fällig',
-      'es': 'Vencimiento de nómina',
-    },
-    'zrx9e6tv': {
-      'en': '\$12,245',
-      'ar': '12245 دولارًا',
-      'de': '12.245 \$',
-      'es': '\$12,245',
-    },
-    '1cjqanzg': {
-      'en': 'Debit Date',
-      'ar': 'تاريخ الخصم',
-      'de': 'Belastungsdatum',
-      'es': 'Fecha de débito',
-    },
-    '726vrs60': {
-      'en': 'Aug 31, 2021',
-      'ar': '31 أغسطس 2021',
-      'de': '31. August 2021',
-      'es': '31 de agosto de 2021',
-    },
-    '4dgbx46t': {
-      'en': '4 Days Left',
-      'ar': 'باقي 4 ايام',
-      'de': 'noch 4 Tage',
-      'es': '4 días restantes',
-    },
-    'n87v5tth': {
-      'en': 'Marketing Budget',
-      'ar': 'ميزانية التسويق',
-      'de': 'Werbehaushalt, Werbebudget',
-      'es': 'Presupuesto de marketing',
-    },
-    'l5pw5c8c': {
-      'en': '\$4,000',
-      'ar': '4000 دولار',
-      'de': '4.000 \$',
-      'es': '\$4,000',
-    },
-    '7i0a44qa': {
-      'en': 'Total Spent',
-      'ar': 'إجمال الصرف',
-      'de': 'Gesamtausgaben',
-      'es': 'Total gastado',
-    },
-    '9a2ya1la': {
-      'en': '\$3,402',
-      'ar': '3،402 دولار',
-      'de': '\$3.402',
-      'es': '\$3,402',
-    },
-    'n1o498d9': {
-      'en': '4 Days Left',
-      'ar': 'باقي 4 ايام',
-      'de': 'noch 4 Tage',
-      'es': '4 días restantes',
     },
     'lmo3ko2i': {
       'en': 'Quick Services',
@@ -995,20 +852,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': 'Schnelle Dienste',
       'es': 'Servicios rápidos',
     },
-    '774itrkn': {
-      'en': 'My Bank',
-      'ar': 'بنكي',
-      'de': 'Meine Bank',
-      'es': 'Mi banco',
-    },
     'xs2as0vf': {
-      'en': 'Transfer',
+      'en': 'Manage Personal',
       'ar': 'تحويل',
       'de': 'Transfer',
       'es': 'Transferir',
     },
     'g8yaaa7f': {
-      'en': 'Activity',
+      'en': 'Rate Reports',
       'ar': 'نشاط',
       'de': 'Aktivität',
       'es': 'Actividad',
@@ -1026,8 +877,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Ver ahora',
     },
     'pnvkw3b7': {
-      'en':
-          'We noticed a small charge that is out of character of this account, please review.',
+      'en': 'We have recieve a new task complete, tap here to see it ',
       'ar': 'لقد لاحظنا تكلفة صغيرة خارجة عن طبيعة هذا الحساب ، يرجى المراجعة.',
       'de':
           'Wir haben eine kleine Belastung festgestellt, die für dieses Konto untypisch ist. Bitte überprüfen Sie diese.',
@@ -1134,82 +984,40 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // profilepage
+  // AdminUS
   {
     'hhb6veym': {
-      'en': 'Wallet Balance',
+      'en': 'Manage Users',
       'ar': 'رصيد المحفظة',
       'de': 'Wallet-Guthaben',
       'es': 'Saldo de la cartera',
     },
-    'fgf8icmv': {
-      'en': '\$23,000',
-      'ar': '23000 دولار',
-      'de': '23.000 \$',
-      'es': '\$23,000',
-    },
-    '2rrr446m': {
-      'en': '3 currencies',
-      'ar': '3 عملات',
-      'de': '3 Währungen',
-      'es': '3 monedas',
-    },
     'r04m9nxs': {
-      'en': 'My Bank',
+      'en': 'Add/edit US',
       'ar': 'بنكي',
       'de': 'Meine Bank',
       'es': 'Mi banco',
     },
     '8nac51xz': {
-      'en': 'Transfer',
+      'en': 'Edit Client',
       'ar': 'تحويل',
       'de': 'Transfer',
       'es': 'Transferir',
     },
-    's56t3xya': {
-      'en': 'Activity',
-      'ar': 'نشاط',
-      'de': 'Aktivität',
-      'es': 'Actividad',
-    },
-    'vewa5op5': {
-      'en': 'Bitcoin',
-      'ar': 'بيتكوين',
-      'de': 'Bitcoin',
-      'es': 'Bitcoin',
-    },
-    '9oun2uok': {
-      'en': '\$7,302',
-      'ar': '7302 دولار',
-      'de': '\$7.302',
-      'es': '\$7,302',
-    },
-    'yla7uncg': {
-      'en': '32% of portfolio',
-      'ar': '32٪ من المحفظة',
-      'de': '32 % des Portfolios',
-      'es': '32% de la cartera',
-    },
-    '7hsm7t9z': {
-      'en': ' ',
-      'ar': '',
-      'de': '',
-      'es': '',
-    },
     'opob20j8': {
-      'en': 'Solona',
+      'en': 'Support User #234',
       'ar': 'سولونا',
       'de': 'Solona',
       'es': 'Soloña',
     },
     'fi3cleyj': {
-      'en': '\$7,302',
+      'en': '1200',
       'ar': '7302 دولار',
       'de': '\$7.302',
       'es': '\$7,302',
     },
     '606emxw1': {
-      'en': '40% of portfolio',
+      'en': '40% of task assigned',
       'ar': '40٪ من المحفظة',
       'de': '40 % des Portfolios',
       'es': '40% de la cartera',
@@ -1220,25 +1028,49 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': '',
       'es': '',
     },
-    'l2io5lul': {
-      'en': 'Dogecoin',
-      'ar': 'دوجكوين',
-      'de': 'Dogecoins',
-      'es': 'dogecoin',
+    '2jj7etyi': {
+      'en': 'User #234',
+      'ar': 'سولونا',
+      'de': 'Solona',
+      'es': 'Soloña',
     },
-    'krsyyttw': {
-      'en': '\$7,302',
+    '4nzkvuyh': {
+      'en': '1200',
       'ar': '7302 دولار',
       'de': '\$7.302',
       'es': '\$7,302',
     },
-    '4mvfe3pe': {
-      'en': '40% of portfolio',
+    'fbwq2hpa': {
+      'en': '40% of task assigned',
       'ar': '40٪ من المحفظة',
       'de': '40 % des Portfolios',
       'es': '40% de la cartera',
     },
-    '6cm4jjje': {
+    'l3udwk3h': {
+      'en': ' ',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'lnfiek3s': {
+      'en': 'User #234',
+      'ar': 'سولونا',
+      'de': 'Solona',
+      'es': 'Soloña',
+    },
+    'kd8scbn0': {
+      'en': '1200',
+      'ar': '7302 دولار',
+      'de': '\$7.302',
+      'es': '\$7,302',
+    },
+    '7g5lcbk6': {
+      'en': '40% of task assigned',
+      'ar': '40٪ من المحفظة',
+      'de': '40 % des Portfolios',
+      'es': '40% de la cartera',
+    },
+    'ab7d4hgt': {
       'en': ' ',
       'ar': '',
       'de': '',
@@ -1251,15 +1083,318 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Casa',
     },
   },
-  // DateReport
+  // AdminSupportUser
   {
-    'eemsm47r': {
-      'en': 'Date Report',
+    't38quocn': {
+      'en': 'Edit Information',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'd5toea6h': {
+      'en': '[User name]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'ynsn43or': {
+      'en': '[email]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '9smam40i': {
+      'en': '[password]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'pcqwygnu': {
+      'en': '[id user]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'uqse37yu': {
+      'en': 'Start Date',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '6azpbzqd': {
+      'en': 'Start Time',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'eekl9itl': {
+      'en': 'Edit Information',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'abncckzx': {
+      'en': 'Delete User',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'blt94kii': {
+      'en': 'Please enter the patients full name.',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '3yxrw9et': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '6v6jknmt': {
+      'en': 'Please enter an age for the patient.',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'fm6ykel1': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '3lt5g1bj': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'hhrouvgy': {
+      'en': 'Please enter the date of birth of the patient.',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '7l5t9jvr': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '22efzyn0': {
+      'en': 'Field is required',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'qzfqphk7': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '522ycq9d': {
+      'en': 'Manage US profile',
       'ar': '',
       'de': '',
       'es': '',
     },
     'svvwurbo': {
+      'en': 'Home',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+  },
+  // SearchSupportUser
+  {
+    'xthikzer': {
+      'en': 'Manage Support',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'y2mx398v': {
+      'en': 'Search user',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'pq4yjq8v': {
+      'en': 'Popular Users',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'rtc70x6h': {
+      'en': '[User name]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'i7hbyuj4': {
+      'en': '[user email]\n[user tittle]\n[number of task completes]\n[age]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'piylsgdw': {
+      'en': 'View details',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '2h84elsl': {
+      'en': 'Home',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+  },
+  // AdminClientUser
+  {
+    'yf5akt1q': {
+      'en': 'Edit Information',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '0n8gsenm': {
+      'en': '[Client name]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '95xzbaya': {
+      'en': '[id client]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'bp5dxwsm': {
+      'en': 'Start Date',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'avt9w2hs': {
+      'en': 'Start Time',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'xrkccixf': {
+      'en': 'Edit Information',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'y2018jy2': {
+      'en': 'Please enter the patients full name.',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'knt1qjee': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'ryt9vt7l': {
+      'en': 'Please enter an age for the patient.',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'mlc5xccw': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'kat1vsuh': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'k920hz5m': {
+      'en': 'Please enter the date of birth of the patient.',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '1oi31fnz': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'g8eeplys': {
+      'en': 'Field is required',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'j5yhe2e3': {
+      'en': 'Please choose an option from the dropdown',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'mm2qmpcg': {
+      'en': 'Manage Client Profile',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'f0fpbda8': {
+      'en': 'Home',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+  },
+  // SearchClientUser
+  {
+    '062djigf': {
+      'en': 'Manage Clients',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '2m0s2ik2': {
+      'en': 'Search user',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'p0yiqfbc': {
+      'en': 'Popular Users',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '2bnbc42z': {
+      'en': '[User name]',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '2n4yi8xt': {
+      'en': '\n[user email]\n[number of task completes]\n',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    '5yph39ze': {
+      'en': 'View details',
+      'ar': '',
+      'de': '',
+      'es': '',
+    },
+    'cmvo9men': {
       'en': 'Home',
       'ar': '',
       'de': '',
@@ -1495,33 +1630,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ar': 'حفظ التغييرات',
       'de': 'Änderungen speichern',
       'es': 'Guardar cambios',
-    },
-  },
-  // pauseCard
-  {
-    'dt7m486y': {
-      'en': 'Pause Card',
-      'ar': 'بطاقة وقفة',
-      'de': 'Pausenkarte',
-      'es': 'Tarjeta de pausa',
-    },
-    '6edae99k': {
-      'en': 'Are you sure you want to pause your card?',
-      'ar': 'هل أنت متأكد أنك تريد إيقاف بطاقتك مؤقتًا؟',
-      'de': 'Möchten Sie Ihre Karte wirklich pausieren?',
-      'es': '¿Seguro que quieres pausar tu tarjeta?',
-    },
-    'omtrfcm5': {
-      'en': 'Nevermind',
-      'ar': 'لا بأس',
-      'de': 'egal',
-      'es': 'No importa',
-    },
-    'hw07mkb9': {
-      'en': 'Yes, Pause',
-      'ar': 'نعم توقف',
-      'de': 'Ja, Pause',
-      'es': 'Sí, pausa',
     },
   },
   // Miscellaneous

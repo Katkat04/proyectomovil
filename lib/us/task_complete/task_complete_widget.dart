@@ -5,25 +5,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'transfer_complete_model.dart';
-export 'transfer_complete_model.dart';
+import 'task_complete_model.dart';
+export 'task_complete_model.dart';
 
-class TransferCompleteWidget extends StatefulWidget {
-  const TransferCompleteWidget({super.key});
+class TaskCompleteWidget extends StatefulWidget {
+  const TaskCompleteWidget({super.key});
 
   @override
-  State<TransferCompleteWidget> createState() => _TransferCompleteWidgetState();
+  State<TaskCompleteWidget> createState() => _TaskCompleteWidgetState();
 }
 
-class _TransferCompleteWidgetState extends State<TransferCompleteWidget> {
-  late TransferCompleteModel _model;
+class _TaskCompleteWidgetState extends State<TaskCompleteWidget> {
+  late TaskCompleteModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => TransferCompleteModel());
+    _model = createModel(context, () => TaskCompleteModel());
   }
 
   @override
