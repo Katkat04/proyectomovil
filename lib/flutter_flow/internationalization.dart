@@ -157,18 +157,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'de': 'Anmeldung',
       'es': 'Acceso',
     },
-    'cjqb8ial': {
-      'en': 'Don\'t have an account?',
-      'ar': 'ليس لديك حساب؟',
-      'de': 'Sie haben kein Konto?',
-      'es': '¿No tienes una cuenta?',
-    },
-    'a0iimirx': {
-      'en': 'Create',
-      'ar': 'ليس لديك حساب؟',
-      'de': 'Sie haben kein Konto?',
-      'es': '¿No tienes una cuenta?',
-    },
     '2bb3vct7': {
       'en': 'Home',
       'ar': 'مسكن',
@@ -853,7 +841,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Servicios rápidos',
     },
     'xs2as0vf': {
-      'en': 'Manage Personal',
+      'en': 'Manage\n Personal',
       'ar': 'تحويل',
       'de': 'Transfer',
       'es': 'Transferir',
